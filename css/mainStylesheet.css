@@ -1,0 +1,56 @@
+/* 
+    Document   : mainStylesheet
+    Created on : Oct 10, 2013, 12:48:14 PM
+    Author     : mark
+    Description:
+        main CSS for HTML pages
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    background-color:#ccccff;
+    font-family: georgia, serif;
+}
+form {
+    display: inline;
+}
+.hidden{
+    height:0px;
+    overflow:hidden;
+}
+
+#tweets div{
+    border:1px solid silver;
+    margin:5px;
+    padding:5px;
+    background-color:#fff;
+}
+
+#chart1 {
+    width: 300px;
+    height: 250px;
+}
+
+#chart2 {
+    width: 600px;
+    height: 300px;
+}
+.image {
+    width: 50px;
+    height: 50px;
+    float: left;
+    clear:both;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+.created{
+    text-align: left; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.tweetText {
+ margin-bottom: 0;   
+}
