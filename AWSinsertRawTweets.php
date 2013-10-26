@@ -20,14 +20,13 @@ function storeRawTweetsInDatabase($rawTweet) {
                 'region' => 'us-west-2'
     ));
 
-    //idexId and the created_at time
+    //idexId and rangeId
     $indexId = 'tweets';
     $rangeId = time();
-    $created_at = date("D M j G:i:s" ,time());
     
     $tableName = 'MSrawTweets';
 
-    //We store the new post in the database AWS dynamoDb
+    //We store the new post in the database - AWS dynamoDb
     $result = $client->putItem(array(
         'TableName' => $tableName,
         'Item' => array(
