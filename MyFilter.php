@@ -22,7 +22,6 @@ class FilterTrackConsumer extends OauthPhirehose {
     }
 }
 
-
 // The OAuth credentials
 define("TWITTER_CONSUMER_KEY", "svZXJI1VwflpveNZcLKgw");
 define("TWITTER_CONSUMER_SECRET", "NR6GEcj09DCBn1K2nNtfYM4wp7bBHXnRkD2ekuI");
