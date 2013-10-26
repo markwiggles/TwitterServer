@@ -2,6 +2,7 @@
 
 require_once('lib/Phirehose.php');
 require_once('lib/OauthPhirehose.php');
+
 require_once ('AWSinsertRawTweets.php');
 
 /**
@@ -21,6 +22,7 @@ class FilterTrackConsumer extends OauthPhirehose {
         storeRawTweetsInDatabase($status);
     }
 }
+
 
 // The OAuth credentials
 define("TWITTER_CONSUMER_KEY", "svZXJI1VwflpveNZcLKgw");
