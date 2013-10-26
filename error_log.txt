@@ -1,0 +1,1492 @@
+[17-Oct-2013 22:54:16 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[17-Oct-2013 22:54:16 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[17-Oct-2013 22:54:16 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[17-Oct-2013 22:54:17 UTC] Phirehose: Connection established to 199.59.148.138
+[17-Oct-2013 22:54:17 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[17-Oct-2013 22:54:17 UTC] Phirehose: Host: stream.twitter.com:443
+
+[17-Oct-2013 22:54:17 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[17-Oct-2013 22:54:17 UTC] Phirehose: Content-length: 38
+
+[17-Oct-2013 22:54:17 UTC] Phirehose: Accept: */*
+
+[17-Oct-2013 22:54:17 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="b46399d999969bc6cc26f5e74f8879ba",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382050457",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="Cnr2XO7voWzwKexzzHvAUMb8orU%3D"
+
+[17-Oct-2013 22:54:17 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[17-Oct-2013 22:54:17 UTC] Phirehose: 
+
+[17-Oct-2013 22:54:17 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[17-Oct-2013 22:54:17 UTC] Phirehose: 
+
+[17-Oct-2013 22:54:19 UTC] PHP Fatal error:  Uncaught exception 'Guzzle\Service\Exception\ValidationException' with message 'Validation errors: [Item][sentiment][S] must be of type string' in phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Command/AbstractCommand.php:358
+Stack trace:
+#0 phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Command/AbstractCommand.php(237): Guzzle\Service\Command\AbstractCommand->validate()
+#1 phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Client.php(201): Guzzle\Service\Command\AbstractCommand->prepare()
+#2 phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Client.php(136): Guzzle\Service\Client->prepareCommand(Object(Aws\Common\Command\JsonCommand))
+#3 phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Command/AbstractCommand.php(154): Guzzle\Service\Client->execute(Object(Aws\Common\Command\JsonCommand))
+#4 phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Command/AbstractCommand.php(190): Guzzle\Service\Command\AbstractCommand->execute()
+#5 phar:///usr/share/php/AW in phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Command/AbstractCommand.php on line 358
+[17-Oct-2013 22:56:42 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[17-Oct-2013 22:56:42 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[17-Oct-2013 22:56:42 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[17-Oct-2013 22:56:43 UTC] Phirehose: Connection established to 199.59.148.229
+[17-Oct-2013 22:56:43 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[17-Oct-2013 22:56:43 UTC] Phirehose: Host: stream.twitter.com:443
+
+[17-Oct-2013 22:56:43 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[17-Oct-2013 22:56:43 UTC] Phirehose: Content-length: 38
+
+[17-Oct-2013 22:56:43 UTC] Phirehose: Accept: */*
+
+[17-Oct-2013 22:56:43 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="309a24c1da33d86cc47e85199ddc4cca",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382050603",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="yHJ0zzbxWKkL78OKRs0%2FEkibjlE%3D"
+
+[17-Oct-2013 22:56:43 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[17-Oct-2013 22:56:43 UTC] Phirehose: 
+
+[17-Oct-2013 22:56:43 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[17-Oct-2013 22:56:43 UTC] Phirehose: 
+
+[17-Oct-2013 22:57:29 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[17-Oct-2013 22:57:29 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[17-Oct-2013 22:57:29 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[17-Oct-2013 22:57:30 UTC] Phirehose: Connection established to 199.59.148.138
+[17-Oct-2013 22:57:30 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[17-Oct-2013 22:57:30 UTC] Phirehose: Host: stream.twitter.com:443
+
+[17-Oct-2013 22:57:30 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[17-Oct-2013 22:57:30 UTC] Phirehose: Content-length: 38
+
+[17-Oct-2013 22:57:30 UTC] Phirehose: Accept: */*
+
+[17-Oct-2013 22:57:30 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="a9f90cfc3119ffd6226d7ab07e3cd9b7",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382050650",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="Tz%2B6vSzjornTeYGJjPdLtbnuPs4%3D"
+
+[17-Oct-2013 22:57:30 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[17-Oct-2013 22:57:30 UTC] Phirehose: 
+
+[17-Oct-2013 22:57:30 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[17-Oct-2013 22:57:30 UTC] Phirehose: 
+
+[17-Oct-2013 22:59:15 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[17-Oct-2013 22:59:15 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[17-Oct-2013 22:59:15 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[17-Oct-2013 22:59:16 UTC] Phirehose: Connection established to 199.59.148.229
+[17-Oct-2013 22:59:16 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[17-Oct-2013 22:59:16 UTC] Phirehose: Host: stream.twitter.com:443
+
+[17-Oct-2013 22:59:16 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[17-Oct-2013 22:59:16 UTC] Phirehose: Content-length: 38
+
+[17-Oct-2013 22:59:16 UTC] Phirehose: Accept: */*
+
+[17-Oct-2013 22:59:16 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="9c8fef04d32b492500265e4f24d09bf5",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382050756",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="NuRwZx6T1clTQbgqx6xr6ESyJ%2Fg%3D"
+
+[17-Oct-2013 22:59:16 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[17-Oct-2013 22:59:16 UTC] Phirehose: 
+
+[17-Oct-2013 22:59:16 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[17-Oct-2013 22:59:16 UTC] Phirehose: 
+
+[17-Oct-2013 22:59:21 UTC] PHP Fatal error:  Uncaught Aws\DynamoDb\Exception\ValidationException: AWS Error Code: ValidationException, Status Code: 400, AWS Request ID: I68EM73V28RPHS8QKMKCECDP73VV4KQNSO5AEMVJF66Q9ASUAAJG, AWS Error Type: client, AWS Error Message: The parameter cannot be converted to a numeric value: '286608876', User-Agent: aws-sdk-php2/2.4.6 Guzzle/3.7.3 curl/7.27.0 PHP/5.4.6-1ubuntu1.4
+  thrown in phar:///usr/share/php/AWSSDKforPHP/aws.phar/Aws/Common/Exception/NamespaceExceptionFactory.php on line 91
+[17-Oct-2013 23:00:43 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[17-Oct-2013 23:00:44 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[17-Oct-2013 23:00:44 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[17-Oct-2013 23:00:44 UTC] Phirehose: Connection established to 199.59.148.138
+[17-Oct-2013 23:00:44 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[17-Oct-2013 23:00:44 UTC] Phirehose: Host: stream.twitter.com:443
+
+[17-Oct-2013 23:00:44 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[17-Oct-2013 23:00:44 UTC] Phirehose: Content-length: 38
+
+[17-Oct-2013 23:00:44 UTC] Phirehose: Accept: */*
+
+[17-Oct-2013 23:00:44 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="7741d664459f5e542abfa79ebf14b0f7",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382050844",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="pwAFzbyepyAmBvZe1rTVZsRe7Js%3D"
+
+[17-Oct-2013 23:00:44 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[17-Oct-2013 23:00:44 UTC] Phirehose: 
+
+[17-Oct-2013 23:00:44 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[17-Oct-2013 23:00:44 UTC] Phirehose: 
+
+[17-Oct-2013 23:00:50 UTC] PHP Fatal error:  Uncaught Aws\DynamoDb\Exception\ValidationException: AWS Error Code: ValidationException, Status Code: 400, AWS Request ID: MRIJQNOE0CFBPRTMI6FGVMREB7VV4KQNSO5AEMVJF66Q9ASUAAJG, AWS Error Type: client, AWS Error Message: The parameter cannot be converted to a numeric value: '3.9097570239869E+17', User-Agent: aws-sdk-php2/2.4.6 Guzzle/3.7.3 curl/7.27.0 PHP/5.4.6-1ubuntu1.4
+  thrown in phar:///usr/share/php/AWSSDKforPHP/aws.phar/Aws/Common/Exception/NamespaceExceptionFactory.php on line 91
+[17-Oct-2013 23:22:26 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[17-Oct-2013 23:22:26 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[17-Oct-2013 23:22:26 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[17-Oct-2013 23:22:27 UTC] Phirehose: Connection established to 199.59.148.138
+[17-Oct-2013 23:22:27 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[17-Oct-2013 23:22:27 UTC] Phirehose: Host: stream.twitter.com:443
+
+[17-Oct-2013 23:22:27 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[17-Oct-2013 23:22:27 UTC] Phirehose: Content-length: 38
+
+[17-Oct-2013 23:22:27 UTC] Phirehose: Accept: */*
+
+[17-Oct-2013 23:22:27 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="ffbd9cf15505a263248ea9ab551d7d67",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382052147",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="6MsBlqXXcF%2FTd7mTMRmSFv1L26Y%3D"
+
+[17-Oct-2013 23:22:27 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[17-Oct-2013 23:22:27 UTC] Phirehose: 
+
+[17-Oct-2013 23:22:27 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[17-Oct-2013 23:22:27 UTC] Phirehose: 
+
+[17-Oct-2013 23:22:32 UTC] PHP Fatal error:  Uncaught exception 'Guzzle\Service\Exception\ValidationException' with message 'Validation errors: [Item][sentiment][S] must be of type string' in phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Command/AbstractCommand.php:358
+Stack trace:
+#0 phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Command/AbstractCommand.php(237): Guzzle\Service\Command\AbstractCommand->validate()
+#1 phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Client.php(201): Guzzle\Service\Command\AbstractCommand->prepare()
+#2 phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Client.php(136): Guzzle\Service\Client->prepareCommand(Object(Aws\Common\Command\JsonCommand))
+#3 phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Command/AbstractCommand.php(154): Guzzle\Service\Client->execute(Object(Aws\Common\Command\JsonCommand))
+#4 phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Command/AbstractCommand.php(190): Guzzle\Service\Command\AbstractCommand->execute()
+#5 phar:///usr/share/php/AW in phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Command/AbstractCommand.php on line 358
+[17-Oct-2013 23:27:06 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[17-Oct-2013 23:27:06 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[17-Oct-2013 23:27:06 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[17-Oct-2013 23:27:07 UTC] Phirehose: Connection established to 199.59.148.138
+[17-Oct-2013 23:27:07 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[17-Oct-2013 23:27:07 UTC] Phirehose: Host: stream.twitter.com:443
+
+[17-Oct-2013 23:27:07 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[17-Oct-2013 23:27:07 UTC] Phirehose: Content-length: 38
+
+[17-Oct-2013 23:27:07 UTC] Phirehose: Accept: */*
+
+[17-Oct-2013 23:27:07 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="40e2a5b20e490458da98893f1c50ec7f",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382052427",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="%2Fnmoscsz9YqV0T%2FfjEESfFlopLo%3D"
+
+[17-Oct-2013 23:27:07 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[17-Oct-2013 23:27:07 UTC] Phirehose: 
+
+[17-Oct-2013 23:27:07 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[17-Oct-2013 23:27:07 UTC] Phirehose: 
+
+[18-Oct-2013 09:50:22 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[18-Oct-2013 09:50:22 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[18-Oct-2013 09:50:22 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[18-Oct-2013 09:50:23 UTC] Phirehose: Connection established to 199.59.148.229
+[18-Oct-2013 09:50:23 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[18-Oct-2013 09:50:23 UTC] Phirehose: Host: stream.twitter.com:443
+
+[18-Oct-2013 09:50:23 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[18-Oct-2013 09:50:23 UTC] Phirehose: Content-length: 38
+
+[18-Oct-2013 09:50:23 UTC] Phirehose: Accept: */*
+
+[18-Oct-2013 09:50:23 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="8c03477b2926f0a64e982faf4402b9b4",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382089823",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="KYtIkuSirXQGmCZFxmU%2BSjIUBRI%3D"
+
+[18-Oct-2013 09:50:23 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[18-Oct-2013 09:50:23 UTC] Phirehose: 
+
+[18-Oct-2013 09:50:23 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[18-Oct-2013 09:50:23 UTC] Phirehose: 
+
+[18-Oct-2013 09:50:26 UTC] PHP Fatal error:  Uncaught Aws\DynamoDb\Exception\ResourceNotFoundException: AWS Error Code: ResourceNotFoundException, Status Code: 400, AWS Request ID: IKNBO7P1C7GQB5SST3ER983ORRVV4KQNSO5AEMVJF66Q9ASUAAJG, AWS Error Type: client, AWS Error Message: Requested resource not found, User-Agent: aws-sdk-php2/2.4.6 Guzzle/3.7.3 curl/7.27.0 PHP/5.4.6-1ubuntu1.4
+  thrown in phar:///usr/share/php/AWSSDKforPHP/aws.phar/Aws/Common/Exception/NamespaceExceptionFactory.php on line 91
+[18-Oct-2013 09:51:43 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[18-Oct-2013 09:51:43 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[18-Oct-2013 09:51:43 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[18-Oct-2013 09:51:44 UTC] Phirehose: Connection established to 199.59.148.138
+[18-Oct-2013 09:51:44 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[18-Oct-2013 09:51:44 UTC] Phirehose: Host: stream.twitter.com:443
+
+[18-Oct-2013 09:51:44 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[18-Oct-2013 09:51:44 UTC] Phirehose: Content-length: 38
+
+[18-Oct-2013 09:51:44 UTC] Phirehose: Accept: */*
+
+[18-Oct-2013 09:51:44 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="5f06fc8e14b40361aa4d7cd899060f71",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382089904",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="BLZ3zgDxl5RGIcTZC84HATVJBrM%3D"
+
+[18-Oct-2013 09:51:44 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[18-Oct-2013 09:51:44 UTC] Phirehose: 
+
+[18-Oct-2013 09:51:44 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[18-Oct-2013 09:51:44 UTC] Phirehose: 
+
+[18-Oct-2013 12:42:29 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[18-Oct-2013 12:42:29 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[18-Oct-2013 12:42:29 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[18-Oct-2013 12:42:30 UTC] Phirehose: Connection established to 199.59.148.229
+[18-Oct-2013 12:42:30 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[18-Oct-2013 12:42:30 UTC] Phirehose: Host: stream.twitter.com:443
+
+[18-Oct-2013 12:42:30 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[18-Oct-2013 12:42:30 UTC] Phirehose: Content-length: 38
+
+[18-Oct-2013 12:42:30 UTC] Phirehose: Accept: */*
+
+[18-Oct-2013 12:42:30 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="e0a658e5edafa7b73d778616345b288d",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382100150",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="AiWVFM6W8wgc5VL3%2BqcnI6V6EkY%3D"
+
+[18-Oct-2013 12:42:30 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[18-Oct-2013 12:42:30 UTC] Phirehose: 
+
+[18-Oct-2013 12:42:30 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[18-Oct-2013 12:42:30 UTC] Phirehose: 
+
+[18-Oct-2013 22:25:12 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[18-Oct-2013 22:25:13 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[18-Oct-2013 22:25:13 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[18-Oct-2013 22:25:13 UTC] Phirehose: Connection established to 199.59.148.138
+[18-Oct-2013 22:25:13 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[18-Oct-2013 22:25:13 UTC] Phirehose: Host: stream.twitter.com:443
+
+[18-Oct-2013 22:25:13 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[18-Oct-2013 22:25:13 UTC] Phirehose: Content-length: 38
+
+[18-Oct-2013 22:25:13 UTC] Phirehose: Accept: */*
+
+[18-Oct-2013 22:25:13 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="d155d0c0aaaccf2b7738e6537c8037af",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382135113",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="YUKHUGO2Tu1fWYuThuNFcgjl%2B4M%3D"
+
+[18-Oct-2013 22:25:13 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[18-Oct-2013 22:25:13 UTC] Phirehose: 
+
+[18-Oct-2013 22:25:13 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[18-Oct-2013 22:25:13 UTC] Phirehose: 
+
+[18-Oct-2013 22:26:14 UTC] Phirehose: Consume rate: 1 status/sec (50 total), avg enqueueStatus(): 1204.68ms, avg checkFilterPredicates(): 0ms (11 total) over 60 seconds, max stream idle period: 6 seconds.
+[19-Oct-2013 00:30:24 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[19-Oct-2013 00:30:24 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[19-Oct-2013 00:30:24 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[19-Oct-2013 00:30:25 UTC] Phirehose: Connection established to 199.59.148.138
+[19-Oct-2013 00:30:25 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[19-Oct-2013 00:30:25 UTC] Phirehose: Host: stream.twitter.com:443
+
+[19-Oct-2013 00:30:25 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[19-Oct-2013 00:30:25 UTC] Phirehose: Content-length: 38
+
+[19-Oct-2013 00:30:25 UTC] Phirehose: Accept: */*
+
+[19-Oct-2013 00:30:25 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="80e88511e5eaedc22d50cceb4c01452f",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382142625",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="zXqQ1GdwJTzY8vKYgDGjEQUV2c8%3D"
+
+[19-Oct-2013 00:30:25 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[19-Oct-2013 00:30:25 UTC] Phirehose: 
+
+[19-Oct-2013 00:30:25 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[19-Oct-2013 00:30:25 UTC] Phirehose: 
+
+[19-Oct-2013 00:30:26 UTC] Phirehose: HTTP failure 1 of 20 connecting to stream: HTTP ERROR 401: Unauthorized (<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Error 401 Unauthorized</title></head><body><h2>HTTP ERROR: 401</h2><p>Problem accessing '/1.1/statuses/filter.json'. Reason:<pre>    Unauthorized</pre>). Sleeping for 10 seconds.
+[19-Oct-2013 00:30:36 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[19-Oct-2013 00:30:36 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[19-Oct-2013 00:30:36 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[19-Oct-2013 00:30:37 UTC] Phirehose: Connection established to 199.59.148.229
+[19-Oct-2013 00:30:37 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[19-Oct-2013 00:30:37 UTC] Phirehose: Host: stream.twitter.com:443
+
+[19-Oct-2013 00:30:37 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[19-Oct-2013 00:30:37 UTC] Phirehose: Content-length: 38
+
+[19-Oct-2013 00:30:37 UTC] Phirehose: Accept: */*
+
+[19-Oct-2013 00:30:37 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="5586d2db743bf8e8ea8fc64958f1bd2f",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382142637",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="ncxXKy2FqhoYXDfStHMT4Yz16%2BQ%3D"
+
+[19-Oct-2013 00:30:37 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[19-Oct-2013 00:30:37 UTC] Phirehose: 
+
+[19-Oct-2013 00:30:37 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[19-Oct-2013 00:30:37 UTC] Phirehose: 
+
+[19-Oct-2013 00:30:37 UTC] Phirehose: HTTP failure 2 of 20 connecting to stream: HTTP ERROR 401: Unauthorized (<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Error 401 Unauthorized</title></head><body><h2>HTTP ERROR: 401</h2><p>Problem accessing '/1.1/statuses/filter.json'. Reason:<pre>    Unauthorized</pre>). Sleeping for 20 seconds.
+[19-Oct-2013 00:30:57 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[19-Oct-2013 00:30:57 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[19-Oct-2013 00:30:57 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[19-Oct-2013 00:30:58 UTC] Phirehose: Connection established to 199.59.148.138
+[19-Oct-2013 00:30:58 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[19-Oct-2013 00:30:58 UTC] Phirehose: Host: stream.twitter.com:443
+
+[19-Oct-2013 00:30:58 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[19-Oct-2013 00:30:58 UTC] Phirehose: Content-length: 38
+
+[19-Oct-2013 00:30:58 UTC] Phirehose: Accept: */*
+
+[19-Oct-2013 00:30:58 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="5bfb79864770a2915691ce5799ac8ca7",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382142658",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="BRUsHyz2k3Gi%2FOb18WF6sshxAWg%3D"
+
+[19-Oct-2013 00:30:58 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[19-Oct-2013 00:30:58 UTC] Phirehose: 
+
+[19-Oct-2013 00:30:58 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[19-Oct-2013 00:30:58 UTC] Phirehose: 
+
+[19-Oct-2013 00:30:59 UTC] Phirehose: HTTP failure 3 of 20 connecting to stream: HTTP ERROR 401: Unauthorized (<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Error 401 Unauthorized</title></head><body><h2>HTTP ERROR: 401</h2><p>Problem accessing '/1.1/statuses/filter.json'. Reason:<pre>    Unauthorized</pre>). Sleeping for 40 seconds.
+[19-Oct-2013 00:31:31 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[19-Oct-2013 00:31:31 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[19-Oct-2013 00:31:31 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[19-Oct-2013 00:31:32 UTC] Phirehose: Connection established to 199.59.148.229
+[19-Oct-2013 00:31:32 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[19-Oct-2013 00:31:32 UTC] Phirehose: Host: stream.twitter.com:443
+
+[19-Oct-2013 00:31:32 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[19-Oct-2013 00:31:32 UTC] Phirehose: Content-length: 38
+
+[19-Oct-2013 00:31:32 UTC] Phirehose: Accept: */*
+
+[19-Oct-2013 00:31:32 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="626247f531ee12cea7bf00e462fe9b1d",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382142692",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="6DNqgceCM8043bTQjQOhLA9rBHo%3D"
+
+[19-Oct-2013 00:31:32 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[19-Oct-2013 00:31:32 UTC] Phirehose: 
+
+[19-Oct-2013 00:31:32 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[19-Oct-2013 00:31:32 UTC] Phirehose: 
+
+[19-Oct-2013 00:31:33 UTC] Phirehose: HTTP failure 1 of 20 connecting to stream: HTTP ERROR 401: Unauthorized (<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Error 401 Unauthorized</title></head><body><h2>HTTP ERROR: 401</h2><p>Problem accessing '/1.1/statuses/filter.json'. Reason:<pre>    Unauthorized</pre>). Sleeping for 10 seconds.
+[19-Oct-2013 00:31:43 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[19-Oct-2013 00:31:43 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[19-Oct-2013 00:31:43 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[19-Oct-2013 00:31:43 UTC] Phirehose: Connection established to 199.59.148.229
+[19-Oct-2013 00:31:43 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[19-Oct-2013 00:31:43 UTC] Phirehose: Host: stream.twitter.com:443
+
+[19-Oct-2013 00:31:43 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[19-Oct-2013 00:31:43 UTC] Phirehose: Content-length: 38
+
+[19-Oct-2013 00:31:43 UTC] Phirehose: Accept: */*
+
+[19-Oct-2013 00:31:43 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="5b3d346aae6e88c32460acdf3b8bfab2",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382142703",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="TZSgJlzZx7H8KduXudZ5aIkr%2Bsc%3D"
+
+[19-Oct-2013 00:31:43 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[19-Oct-2013 00:31:43 UTC] Phirehose: 
+
+[19-Oct-2013 00:31:43 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[19-Oct-2013 00:31:43 UTC] Phirehose: 
+
+[19-Oct-2013 00:31:44 UTC] Phirehose: HTTP failure 2 of 20 connecting to stream: HTTP ERROR 401: Unauthorized (<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Error 401 Unauthorized</title></head><body><h2>HTTP ERROR: 401</h2><p>Problem accessing '/1.1/statuses/filter.json'. Reason:<pre>    Unauthorized</pre>). Sleeping for 20 seconds.
+[19-Oct-2013 00:32:04 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[19-Oct-2013 00:32:04 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[19-Oct-2013 00:32:04 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[19-Oct-2013 00:32:05 UTC] Phirehose: Connection established to 199.59.148.229
+[19-Oct-2013 00:32:05 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[19-Oct-2013 00:32:05 UTC] Phirehose: Host: stream.twitter.com:443
+
+[19-Oct-2013 00:32:05 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[19-Oct-2013 00:32:05 UTC] Phirehose: Content-length: 38
+
+[19-Oct-2013 00:32:05 UTC] Phirehose: Accept: */*
+
+[19-Oct-2013 00:32:05 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="7431f21d5454aee84fe24220bdeb5b47",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382142725",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="ycfP5MA9edPdz4XNO4QXLxXO1BA%3D"
+
+[19-Oct-2013 00:32:05 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[19-Oct-2013 00:32:05 UTC] Phirehose: 
+
+[19-Oct-2013 00:32:05 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[19-Oct-2013 00:32:05 UTC] Phirehose: 
+
+[19-Oct-2013 00:32:05 UTC] Phirehose: HTTP failure 3 of 20 connecting to stream: HTTP ERROR 401: Unauthorized (<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Error 401 Unauthorized</title></head><body><h2>HTTP ERROR: 401</h2><p>Problem accessing '/1.1/statuses/filter.json'. Reason:<pre>    Unauthorized</pre>). Sleeping for 40 seconds.
+[19-Oct-2013 00:32:45 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[19-Oct-2013 00:32:46 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[19-Oct-2013 00:32:46 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[19-Oct-2013 00:32:46 UTC] Phirehose: Connection established to 199.59.148.229
+[19-Oct-2013 00:32:46 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[19-Oct-2013 00:32:46 UTC] Phirehose: Host: stream.twitter.com:443
+
+[19-Oct-2013 00:32:46 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[19-Oct-2013 00:32:46 UTC] Phirehose: Content-length: 38
+
+[19-Oct-2013 00:32:46 UTC] Phirehose: Accept: */*
+
+[19-Oct-2013 00:32:46 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="b190a90d561ca90a5509260226fd5dab",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382142766",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="4C7JTSKCDSLvYgsWPfW7pbixA74%3D"
+
+[19-Oct-2013 00:32:46 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[19-Oct-2013 00:32:46 UTC] Phirehose: 
+
+[19-Oct-2013 00:32:46 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[19-Oct-2013 00:32:46 UTC] Phirehose: 
+
+[19-Oct-2013 00:32:47 UTC] Phirehose: HTTP failure 4 of 20 connecting to stream: HTTP ERROR 401: Unauthorized (<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Error 401 Unauthorized</title></head><body><h2>HTTP ERROR: 401</h2><p>Problem accessing '/1.1/statuses/filter.json'. Reason:<pre>    Unauthorized</pre>). Sleeping for 80 seconds.
+[19-Oct-2013 03:47:19 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[19-Oct-2013 03:47:19 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[19-Oct-2013 03:47:19 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[19-Oct-2013 03:47:20 UTC] Phirehose: Connection established to 199.59.148.138
+[19-Oct-2013 03:47:20 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[19-Oct-2013 03:47:20 UTC] Phirehose: Host: stream.twitter.com:443
+
+[19-Oct-2013 03:47:20 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[19-Oct-2013 03:47:20 UTC] Phirehose: Content-length: 38
+
+[19-Oct-2013 03:47:20 UTC] Phirehose: Accept: */*
+
+[19-Oct-2013 03:47:20 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="a7cddc4a12d9ff8f7f6690aa649768fd",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382154440",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="D%2BtKW3SgsitOz5MCtHlb1VPSBok%3D"
+
+[19-Oct-2013 03:47:20 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[19-Oct-2013 03:47:20 UTC] Phirehose: 
+
+[19-Oct-2013 03:47:20 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[19-Oct-2013 03:47:20 UTC] Phirehose: 
+
+[19-Oct-2013 03:49:22 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[19-Oct-2013 03:49:22 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[19-Oct-2013 03:49:22 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[19-Oct-2013 03:49:23 UTC] Phirehose: Connection established to 199.59.148.229
+[19-Oct-2013 03:49:23 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[19-Oct-2013 03:49:23 UTC] Phirehose: Host: stream.twitter.com:443
+
+[19-Oct-2013 03:49:23 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[19-Oct-2013 03:49:23 UTC] Phirehose: Content-length: 38
+
+[19-Oct-2013 03:49:23 UTC] Phirehose: Accept: */*
+
+[19-Oct-2013 03:49:23 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="14f5b9aebb1fc6328d87b6c229468541",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382154563",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="HkogoYFCA3r7%2BLHrAaVpVnE1DSQ%3D"
+
+[19-Oct-2013 03:49:23 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[19-Oct-2013 03:49:23 UTC] Phirehose: 
+
+[19-Oct-2013 03:49:23 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[19-Oct-2013 03:49:23 UTC] Phirehose: 
+
+[19-Oct-2013 03:49:25 UTC] PHP Fatal error:  Uncaught Aws\DynamoDb\Exception\ValidationException: AWS Error Code: ValidationException, Status Code: 400, AWS Request ID: V705EJ7J7AOPJAM7MCHPDOO5T3VV4KQNSO5AEMVJF66Q9ASUAAJG, AWS Error Type: client, AWS Error Message: One or more parameter values were invalid: Missing the key rangeId in the item, User-Agent: aws-sdk-php2/2.4.6 Guzzle/3.7.3 curl/7.27.0 PHP/5.4.6-1ubuntu1.4
+  thrown in phar:///usr/share/php/AWSSDKforPHP/aws.phar/Aws/Common/Exception/NamespaceExceptionFactory.php on line 91
+[19-Oct-2013 03:50:04 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[19-Oct-2013 03:50:05 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[19-Oct-2013 03:50:05 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[19-Oct-2013 03:50:06 UTC] Phirehose: Connection established to 199.59.148.138
+[19-Oct-2013 03:50:06 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[19-Oct-2013 03:50:06 UTC] Phirehose: Host: stream.twitter.com:443
+
+[19-Oct-2013 03:50:06 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[19-Oct-2013 03:50:06 UTC] Phirehose: Content-length: 38
+
+[19-Oct-2013 03:50:06 UTC] Phirehose: Accept: */*
+
+[19-Oct-2013 03:50:06 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="d3ad296459937841767f72e6761b522b",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382154606",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="tsuRNVo9Q4dkMN%2B2DM5MeCHT4XU%3D"
+
+[19-Oct-2013 03:50:06 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[19-Oct-2013 03:50:06 UTC] Phirehose: 
+
+[19-Oct-2013 03:50:06 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[19-Oct-2013 03:50:06 UTC] Phirehose: 
+
+[19-Oct-2013 23:54:42 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[19-Oct-2013 23:54:42 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[19-Oct-2013 23:54:42 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[19-Oct-2013 23:54:43 UTC] Phirehose: Connection established to 199.59.148.138
+[19-Oct-2013 23:54:43 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[19-Oct-2013 23:54:43 UTC] Phirehose: Host: stream.twitter.com:443
+
+[19-Oct-2013 23:54:43 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[19-Oct-2013 23:54:43 UTC] Phirehose: Content-length: 38
+
+[19-Oct-2013 23:54:43 UTC] Phirehose: Accept: */*
+
+[19-Oct-2013 23:54:43 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="62370ecd4541703fe0ba51d29f96f1a4",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382226883",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="Z945vZVGN5j1VIlij1Witfv7q4g%3D"
+
+[19-Oct-2013 23:54:43 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[19-Oct-2013 23:54:43 UTC] Phirehose: 
+
+[19-Oct-2013 23:54:43 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[19-Oct-2013 23:54:43 UTC] Phirehose: 
+
+[20-Oct-2013 00:02:12 UTC] PHP Notice:  Undefined offset: 1 in /home/mark/TwitterFun/MyFilter.php on line 33
+[20-Oct-2013 00:02:12 UTC] PHP Catchable fatal error:  Argument 1 passed to Phirehose::setTrack() must be of the type array, boolean given, called in /home/mark/TwitterFun/MyFilter.php on line 38 and defined in /home/mark/TwitterFun/lib/Phirehose.php on line 208
+[23-Oct-2013 06:48:11 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',)
+[23-Oct-2013 06:48:11 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[23-Oct-2013 06:48:11 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[23-Oct-2013 06:48:12 UTC] Phirehose: Connection established to 199.59.148.229
+[23-Oct-2013 06:48:12 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[23-Oct-2013 06:48:12 UTC] Phirehose: Host: stream.twitter.com:443
+
+[23-Oct-2013 06:48:12 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[23-Oct-2013 06:48:12 UTC] Phirehose: Content-length: 16
+
+[23-Oct-2013 06:48:12 UTC] Phirehose: Accept: */*
+
+[23-Oct-2013 06:48:12 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="606413bff39405d9342e642193daaa15",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382510892",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="q5d40xBhVMZ4J5vyLXdQw0XtnqA%3D"
+
+[23-Oct-2013 06:48:12 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[23-Oct-2013 06:48:12 UTC] Phirehose: 
+
+[23-Oct-2013 06:48:12 UTC] Phirehose: delimited=length
+
+[23-Oct-2013 06:48:12 UTC] Phirehose: 
+
+[23-Oct-2013 06:48:12 UTC] Phirehose: HTTP failure 1 of 20 connecting to stream: HTTP ERROR 401: Unauthorized (<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Error 401 Unauthorized</title></head><body><h2>HTTP ERROR: 401</h2><p>Problem accessing '/1.1/statuses/filter.json'. Reason:<pre>    Unauthorized</pre>). Sleeping for 10 seconds.
+[23-Oct-2013 06:48:22 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',)
+[23-Oct-2013 06:48:22 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[23-Oct-2013 06:48:22 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[23-Oct-2013 06:48:23 UTC] Phirehose: Connection established to 199.59.148.138
+[23-Oct-2013 06:48:23 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[23-Oct-2013 06:48:23 UTC] Phirehose: Host: stream.twitter.com:443
+
+[23-Oct-2013 06:48:23 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[23-Oct-2013 06:48:23 UTC] Phirehose: Content-length: 16
+
+[23-Oct-2013 06:48:23 UTC] Phirehose: Accept: */*
+
+[23-Oct-2013 06:48:23 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="d72f8c5a2a8b0f56ce3284f53cdb944e",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382510903",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="lQufkcFCf9GASZqo1FzEu81vvu0%3D"
+
+[23-Oct-2013 06:48:23 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[23-Oct-2013 06:48:23 UTC] Phirehose: 
+
+[23-Oct-2013 06:48:23 UTC] Phirehose: delimited=length
+
+[23-Oct-2013 06:48:23 UTC] Phirehose: 
+
+[23-Oct-2013 06:48:24 UTC] Phirehose: HTTP failure 2 of 20 connecting to stream: HTTP ERROR 401: Unauthorized (<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Error 401 Unauthorized</title></head><body><h2>HTTP ERROR: 401</h2><p>Problem accessing '/1.1/statuses/filter.json'. Reason:<pre>    Unauthorized</pre>). Sleeping for 20 seconds.
+[25-Oct-2013 22:49:31 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',)
+[25-Oct-2013 22:49:31 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[25-Oct-2013 22:49:31 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 22:49:32 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 22:49:32 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 22:49:32 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 22:49:32 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 22:49:32 UTC] Phirehose: Content-length: 16
+
+[25-Oct-2013 22:49:32 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 22:49:32 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="6a338f9256205f4b4ffb6885bd0f6486",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382741372",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="ajHRCCP54b5hGtDyQ872oNVuKp8%3D"
+
+[25-Oct-2013 22:49:32 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 22:49:32 UTC] Phirehose: 
+
+[25-Oct-2013 22:49:32 UTC] Phirehose: delimited=length
+
+[25-Oct-2013 22:49:32 UTC] Phirehose: 
+
+[25-Oct-2013 22:49:32 UTC] Phirehose: HTTP failure 1 of 20 connecting to stream: HTTP ERROR 406: Not Acceptable (No filter parameters found. Expect at least one parameter: follow track locations). Sleeping for 10 seconds.
+[25-Oct-2013 22:49:42 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',)
+[25-Oct-2013 22:49:42 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 22:49:42 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[25-Oct-2013 22:49:43 UTC] Phirehose: Connection established to 199.59.148.138
+[25-Oct-2013 22:49:43 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 22:49:43 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 22:49:43 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 22:49:43 UTC] Phirehose: Content-length: 16
+
+[25-Oct-2013 22:49:43 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 22:49:43 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="08cf7eaf5237bef4cc8b246b9198136c",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382741383",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="lGYCXZEIaGCD9kO492bSDnqa5GE%3D"
+
+[25-Oct-2013 22:49:43 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 22:49:43 UTC] Phirehose: 
+
+[25-Oct-2013 22:49:43 UTC] Phirehose: delimited=length
+
+[25-Oct-2013 22:49:43 UTC] Phirehose: 
+
+[25-Oct-2013 22:49:44 UTC] Phirehose: HTTP failure 2 of 20 connecting to stream: HTTP ERROR 406: Not Acceptable (No filter parameters found. Expect at least one parameter: follow track locations). Sleeping for 20 seconds.
+[25-Oct-2013 22:51:47 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',)
+[25-Oct-2013 22:51:47 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 22:51:47 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 22:51:48 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 22:51:48 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 22:51:48 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 22:51:48 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 22:51:48 UTC] Phirehose: Content-length: 16
+
+[25-Oct-2013 22:51:48 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 22:51:48 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="d5810c0aafbf7a606ddec8b8a72ba212",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382741508",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="AVDZmUa5l7Izo4Ko%2Ft1xfL1FiG4%3D"
+
+[25-Oct-2013 22:51:48 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 22:51:48 UTC] Phirehose: 
+
+[25-Oct-2013 22:51:48 UTC] Phirehose: delimited=length
+
+[25-Oct-2013 22:51:48 UTC] Phirehose: 
+
+[25-Oct-2013 22:51:49 UTC] Phirehose: HTTP failure 1 of 20 connecting to stream: HTTP ERROR 406: Not Acceptable (No filter parameters found. Expect at least one parameter: follow track locations). Sleeping for 10 seconds.
+[25-Oct-2013 22:51:59 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',)
+[25-Oct-2013 22:51:59 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 22:51:59 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 22:52:00 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 22:52:00 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 22:52:00 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 22:52:00 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 22:52:00 UTC] Phirehose: Content-length: 16
+
+[25-Oct-2013 22:52:00 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 22:52:00 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="df7e32e9c80996cc9e527e18b6738361",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382741520",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="CnnwvM9dHTVchj2th%2Bid5JVnx6Q%3D"
+
+[25-Oct-2013 22:52:00 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 22:52:00 UTC] Phirehose: 
+
+[25-Oct-2013 22:52:00 UTC] Phirehose: delimited=length
+
+[25-Oct-2013 22:52:00 UTC] Phirehose: 
+
+[25-Oct-2013 22:52:00 UTC] Phirehose: HTTP failure 2 of 20 connecting to stream: HTTP ERROR 406: Not Acceptable (No filter parameters found. Expect at least one parameter: follow track locations). Sleeping for 20 seconds.
+[25-Oct-2013 22:52:18 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'tony abbott',)
+[25-Oct-2013 22:52:19 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[25-Oct-2013 22:52:19 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 22:52:19 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 22:52:19 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 22:52:19 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 22:52:19 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 22:52:19 UTC] Phirehose: Content-length: 36
+
+[25-Oct-2013 22:52:19 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 22:52:19 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="f575ee0da4abe6b301aeed26da5779cd",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382741539",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="2WKoSVljLrjidGzNoQYh9%2F7cYEI%3D"
+
+[25-Oct-2013 22:52:19 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 22:52:19 UTC] Phirehose: 
+
+[25-Oct-2013 22:52:19 UTC] Phirehose: delimited=length&track=tony%20abbott
+
+[25-Oct-2013 22:52:19 UTC] Phirehose: 
+
+[25-Oct-2013 22:52:44 UTC] PHP Fatal error:  Uncaught Aws\DynamoDb\Exception\ValidationException: AWS Error Code: ValidationException, Status Code: 400, AWS Request ID: C2BS61C572SII84LKB3HR2187RVV4KQNSO5AEMVJF66Q9ASUAAJG, AWS Error Type: client, AWS Error Message: One or more parameter values were invalid: An AttributeValue may not contain an empty string., User-Agent: aws-sdk-php2/2.4.6 Guzzle/3.7.3 curl/7.27.0 PHP/5.4.6-1ubuntu1.4
+  thrown in phar:///usr/share/php/AWSSDKforPHP/aws.phar/Aws/Common/Exception/NamespaceExceptionFactory.php on line 91
+[25-Oct-2013 22:53:13 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'tony abbott',)
+[25-Oct-2013 22:53:13 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 22:53:13 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 22:53:14 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 22:53:14 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 22:53:14 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 22:53:14 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 22:53:14 UTC] Phirehose: Content-length: 36
+
+[25-Oct-2013 22:53:14 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 22:53:14 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="c82c162650bad0ce29b9795a82fce43e",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382741594",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="pWQiNVVls%2FXbuuDp3cEtsqQWIoo%3D"
+
+[25-Oct-2013 22:53:14 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 22:53:14 UTC] Phirehose: 
+
+[25-Oct-2013 22:53:14 UTC] Phirehose: delimited=length&track=tony%20abbott
+
+[25-Oct-2013 22:53:14 UTC] Phirehose: 
+
+[25-Oct-2013 22:54:42 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'tony abbott',)
+[25-Oct-2013 22:54:42 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 22:54:42 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 22:54:43 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 22:54:43 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 22:54:43 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 22:54:43 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 22:54:43 UTC] Phirehose: Content-length: 36
+
+[25-Oct-2013 22:54:43 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 22:54:43 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="3e46532af5ff8237a246463ac185f069",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382741683",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="JZO00wofUyWk9merUIq92Q18LrI%3D"
+
+[25-Oct-2013 22:54:43 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 22:54:43 UTC] Phirehose: 
+
+[25-Oct-2013 22:54:43 UTC] Phirehose: delimited=length&track=tony%20abbott
+
+[25-Oct-2013 22:54:43 UTC] Phirehose: 
+
+[25-Oct-2013 22:57:03 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'tony abbott',)
+[25-Oct-2013 22:57:03 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 22:57:03 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 22:57:04 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 22:57:04 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 22:57:04 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 22:57:04 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 22:57:04 UTC] Phirehose: Content-length: 36
+
+[25-Oct-2013 22:57:04 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 22:57:04 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="7987d92e6c2619db66d3f0b124b2f245",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382741824",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="r2mTf2L3q%2Bi%2F%2FNzApkZSEPKI34E%3D"
+
+[25-Oct-2013 22:57:04 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 22:57:04 UTC] Phirehose: 
+
+[25-Oct-2013 22:57:04 UTC] Phirehose: delimited=length&track=tony%20abbott
+
+[25-Oct-2013 22:57:04 UTC] Phirehose: 
+
+[25-Oct-2013 22:57:17 UTC] PHP Fatal error:  Uncaught Aws\DynamoDb\Exception\ValidationException: AWS Error Code: ValidationException, Status Code: 400, AWS Request ID: LJ69HMKOV9ONVCKGV6BIFAMIBVVV4KQNSO5AEMVJF66Q9ASUAAJG, AWS Error Type: client, AWS Error Message: One or more parameter values were invalid: An AttributeValue may not contain an empty string., User-Agent: aws-sdk-php2/2.4.6 Guzzle/3.7.3 curl/7.27.0 PHP/5.4.6-1ubuntu1.4
+  thrown in phar:///usr/share/php/AWSSDKforPHP/aws.phar/Aws/Common/Exception/NamespaceExceptionFactory.php on line 91
+[25-Oct-2013 22:57:47 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'tony abbott',)
+[25-Oct-2013 22:57:47 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[25-Oct-2013 22:57:47 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[25-Oct-2013 22:57:48 UTC] Phirehose: Connection established to 199.59.148.138
+[25-Oct-2013 22:57:48 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 22:57:48 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 22:57:48 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 22:57:48 UTC] Phirehose: Content-length: 36
+
+[25-Oct-2013 22:57:48 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 22:57:48 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="c4e5695713cfb3ffe1b58bd65255d97f",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382741868",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="xS5dLSR%2BTrvq8GD5Zo%2FspqLNOJQ%3D"
+
+[25-Oct-2013 22:57:48 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 22:57:48 UTC] Phirehose: 
+
+[25-Oct-2013 22:57:48 UTC] Phirehose: delimited=length&track=tony%20abbott
+
+[25-Oct-2013 22:57:48 UTC] Phirehose: 
+
+[25-Oct-2013 22:59:12 UTC] Phirehose: Consume rate: 0 status/sec (3 total), avg enqueueStatus(): 0.34ms, avg checkFilterPredicates(): 0ms (6 total) over 83 seconds, max stream idle period: 25 seconds.
+[25-Oct-2013 22:59:23 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'tony abbott',)
+[25-Oct-2013 22:59:24 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[25-Oct-2013 22:59:24 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[25-Oct-2013 22:59:24 UTC] Phirehose: Connection established to 199.59.148.138
+[25-Oct-2013 22:59:24 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 22:59:24 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 22:59:24 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 22:59:24 UTC] Phirehose: Content-length: 36
+
+[25-Oct-2013 22:59:24 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 22:59:24 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="72e1ea2dc03688497f3be24621f90eef",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382741964",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="Vkz5Ppw1hY4yGndPEfFlbHAYbGo%3D"
+
+[25-Oct-2013 22:59:24 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 22:59:24 UTC] Phirehose: 
+
+[25-Oct-2013 22:59:24 UTC] Phirehose: delimited=length&track=tony%20abbott
+
+[25-Oct-2013 22:59:24 UTC] Phirehose: 
+
+[25-Oct-2013 22:59:51 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',)
+[25-Oct-2013 22:59:51 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 22:59:51 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 22:59:52 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 22:59:52 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 22:59:52 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 22:59:52 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 22:59:52 UTC] Phirehose: Content-length: 16
+
+[25-Oct-2013 22:59:52 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 22:59:52 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="e32ac4965dbaaaf8f770b6b0aaf3a27b",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382741992",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="hx0tTaFZklMEH9QmxOmuJrJ9T5U%3D"
+
+[25-Oct-2013 22:59:52 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 22:59:52 UTC] Phirehose: 
+
+[25-Oct-2013 22:59:52 UTC] Phirehose: delimited=length
+
+[25-Oct-2013 22:59:52 UTC] Phirehose: 
+
+[25-Oct-2013 22:59:52 UTC] Phirehose: HTTP failure 1 of 20 connecting to stream: HTTP ERROR 406: Not Acceptable (No filter parameters found. Expect at least one parameter: follow track locations). Sleeping for 10 seconds.
+[25-Oct-2013 23:00:02 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',)
+[25-Oct-2013 23:00:02 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 23:00:02 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 23:00:03 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 23:00:03 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 23:00:03 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 23:00:03 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 23:00:03 UTC] Phirehose: Content-length: 16
+
+[25-Oct-2013 23:00:03 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 23:00:03 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="d0bb129fe709120f595907cd06d3f43a",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382742003",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="BF0ru%2Bxwa9BosTiU8uzapShlQG8%3D"
+
+[25-Oct-2013 23:00:03 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 23:00:03 UTC] Phirehose: 
+
+[25-Oct-2013 23:00:03 UTC] Phirehose: delimited=length
+
+[25-Oct-2013 23:00:03 UTC] Phirehose: 
+
+[25-Oct-2013 23:00:04 UTC] Phirehose: HTTP failure 2 of 20 connecting to stream: HTTP ERROR 406: Not Acceptable (No filter parameters found. Expect at least one parameter: follow track locations). Sleeping for 20 seconds.
+[25-Oct-2013 23:00:24 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',)
+[25-Oct-2013 23:00:24 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 23:00:24 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[25-Oct-2013 23:00:25 UTC] Phirehose: Connection established to 199.59.148.138
+[25-Oct-2013 23:00:25 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 23:00:25 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 23:00:25 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 23:00:25 UTC] Phirehose: Content-length: 16
+
+[25-Oct-2013 23:00:25 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 23:00:25 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="c412f7c05b1121a2634b6976adb39e98",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382742025",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="exOzoXaSXrx4eFrL2ZSU9RZaUzM%3D"
+
+[25-Oct-2013 23:00:25 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 23:00:25 UTC] Phirehose: 
+
+[25-Oct-2013 23:00:25 UTC] Phirehose: delimited=length
+
+[25-Oct-2013 23:00:25 UTC] Phirehose: 
+
+[25-Oct-2013 23:00:25 UTC] Phirehose: HTTP failure 3 of 20 connecting to stream: HTTP ERROR 406: Not Acceptable (No filter parameters found. Expect at least one parameter: follow track locations). Sleeping for 40 seconds.
+[25-Oct-2013 23:01:10 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[25-Oct-2013 23:01:10 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[25-Oct-2013 23:01:10 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[25-Oct-2013 23:01:11 UTC] Phirehose: Connection established to 199.59.148.138
+[25-Oct-2013 23:01:11 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 23:01:11 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 23:01:11 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 23:01:11 UTC] Phirehose: Content-length: 38
+
+[25-Oct-2013 23:01:11 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 23:01:11 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="22608dbfc29e4665f7183b0f41f43032",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382742071",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="jbZi2Qib3Hyp1TB18oCg%2FGU2Sl0%3D"
+
+[25-Oct-2013 23:01:11 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 23:01:11 UTC] Phirehose: 
+
+[25-Oct-2013 23:01:11 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[25-Oct-2013 23:01:11 UTC] Phirehose: 
+
+[25-Oct-2013 23:01:12 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:12 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:12 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:12 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:12 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:12 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:12 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:12 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:13 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:13 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:13 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:13 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:14 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:14 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:14 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:14 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:14 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:14 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:14 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:14 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:14 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:14 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:14 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:14 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:14 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:14 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:14 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:14 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:15 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:15 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:15 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:15 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:15 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:15 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:15 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:15 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:15 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:15 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:16 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:16 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:16 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:16 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:17 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:17 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:17 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:17 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:17 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:17 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:17 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:17 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:18 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:18 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:18 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:18 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:19 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:19 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:19 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:19 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:19 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:19 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:19 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:19 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:20 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:20 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:20 UTC] PHP Notice:  Use of undefined constant status - assumed 'status' in /home/mark/TwitterFun/MyFilter.php on line 18
+[25-Oct-2013 23:01:20 UTC] PHP Notice:  Trying to get property of non-object in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:01:56 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[25-Oct-2013 23:01:56 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[25-Oct-2013 23:01:56 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 23:01:57 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 23:01:57 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 23:01:57 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 23:01:57 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 23:01:57 UTC] Phirehose: Content-length: 38
+
+[25-Oct-2013 23:01:57 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 23:01:57 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="5a6e8dc75c8c8d03e1e9f17434e0b1d1",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382742117",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="3xcAdWOyGuB7Bbx6%2Bvbb9dPzL7s%3D"
+
+[25-Oct-2013 23:01:57 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 23:01:57 UTC] Phirehose: 
+
+[25-Oct-2013 23:01:57 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[25-Oct-2013 23:01:57 UTC] Phirehose: 
+
+[25-Oct-2013 23:02:17 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',)
+[25-Oct-2013 23:02:17 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 23:02:17 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[25-Oct-2013 23:02:18 UTC] Phirehose: Connection established to 199.59.148.138
+[25-Oct-2013 23:02:18 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 23:02:18 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 23:02:18 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 23:02:18 UTC] Phirehose: Content-length: 16
+
+[25-Oct-2013 23:02:18 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 23:02:18 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="c17412457124c2187d82a5e32b4037d6",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382742138",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="m33Fn63g%2BwAJCFbEL1F67Tm8U5c%3D"
+
+[25-Oct-2013 23:02:18 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 23:02:18 UTC] Phirehose: 
+
+[25-Oct-2013 23:02:18 UTC] Phirehose: delimited=length
+
+[25-Oct-2013 23:02:18 UTC] Phirehose: 
+
+[25-Oct-2013 23:02:18 UTC] Phirehose: HTTP failure 1 of 20 connecting to stream: HTTP ERROR 406: Not Acceptable (No filter parameters found. Expect at least one parameter: follow track locations). Sleeping for 10 seconds.
+[25-Oct-2013 23:02:28 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',)
+[25-Oct-2013 23:02:28 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 23:02:28 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[25-Oct-2013 23:02:29 UTC] Phirehose: Connection established to 199.59.148.138
+[25-Oct-2013 23:02:29 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 23:02:29 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 23:02:29 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 23:02:29 UTC] Phirehose: Content-length: 16
+
+[25-Oct-2013 23:02:29 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 23:02:29 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="2e8d1ac1572d19f02c45beb71d5e03d4",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382742149",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="ACQRFt98lMbmGog6XTd7mz8WZ64%3D"
+
+[25-Oct-2013 23:02:29 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 23:02:29 UTC] Phirehose: 
+
+[25-Oct-2013 23:02:29 UTC] Phirehose: delimited=length
+
+[25-Oct-2013 23:02:29 UTC] Phirehose: 
+
+[25-Oct-2013 23:02:30 UTC] Phirehose: HTTP failure 2 of 20 connecting to stream: HTTP ERROR 406: Not Acceptable (No filter parameters found. Expect at least one parameter: follow track locations). Sleeping for 20 seconds.
+[25-Oct-2013 23:02:44 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[25-Oct-2013 23:02:44 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[25-Oct-2013 23:02:44 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 23:02:45 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 23:02:45 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 23:02:45 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 23:02:45 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 23:02:45 UTC] Phirehose: Content-length: 38
+
+[25-Oct-2013 23:02:45 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 23:02:45 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="c51f98ebbd5a32246514c88daeef71a6",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382742165",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="iWU9M1XLesQ1KzNbNFVvAc5gtxc%3D"
+
+[25-Oct-2013 23:02:45 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 23:02:45 UTC] Phirehose: 
+
+[25-Oct-2013 23:02:45 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[25-Oct-2013 23:02:45 UTC] Phirehose: 
+
+[25-Oct-2013 23:03:03 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',)
+[25-Oct-2013 23:03:03 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[25-Oct-2013 23:03:03 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 23:03:04 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 23:03:04 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 23:03:04 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 23:03:04 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 23:03:04 UTC] Phirehose: Content-length: 16
+
+[25-Oct-2013 23:03:04 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 23:03:04 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="f3847117057013fadaf7d7bf413d3a89",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382742184",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="5OOMpyAK4j4YQ4nbZzuI1GkucWE%3D"
+
+[25-Oct-2013 23:03:04 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 23:03:04 UTC] Phirehose: 
+
+[25-Oct-2013 23:03:04 UTC] Phirehose: delimited=length
+
+[25-Oct-2013 23:03:04 UTC] Phirehose: 
+
+[25-Oct-2013 23:03:05 UTC] Phirehose: HTTP failure 1 of 20 connecting to stream: HTTP ERROR 406: Not Acceptable (No filter parameters found. Expect at least one parameter: follow track locations). Sleeping for 10 seconds.
+[25-Oct-2013 23:03:15 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',)
+[25-Oct-2013 23:03:15 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 23:03:15 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[25-Oct-2013 23:03:16 UTC] Phirehose: Connection established to 199.59.148.138
+[25-Oct-2013 23:03:16 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 23:03:16 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 23:03:16 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 23:03:16 UTC] Phirehose: Content-length: 16
+
+[25-Oct-2013 23:03:16 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 23:03:16 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="d9c578e37e0b1195b7a34e0b2b22dfdd",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382742196",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="UnuaLY1iJRlVBIHg6lmHAQruLKs%3D"
+
+[25-Oct-2013 23:03:16 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 23:03:16 UTC] Phirehose: 
+
+[25-Oct-2013 23:03:16 UTC] Phirehose: delimited=length
+
+[25-Oct-2013 23:03:16 UTC] Phirehose: 
+
+[25-Oct-2013 23:03:16 UTC] Phirehose: HTTP failure 2 of 20 connecting to stream: HTTP ERROR 406: Not Acceptable (No filter parameters found. Expect at least one parameter: follow track locations). Sleeping for 20 seconds.
+[25-Oct-2013 23:03:36 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',)
+[25-Oct-2013 23:03:36 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 23:03:36 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[25-Oct-2013 23:03:37 UTC] Phirehose: Connection established to 199.59.148.138
+[25-Oct-2013 23:03:37 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 23:03:37 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 23:03:37 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 23:03:37 UTC] Phirehose: Content-length: 16
+
+[25-Oct-2013 23:03:37 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 23:03:37 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="2a643d9c2b6493048090789b8e0a98d8",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382742217",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="rUAq5y33No2eGYvsNnOvGFlxopQ%3D"
+
+[25-Oct-2013 23:03:37 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 23:03:37 UTC] Phirehose: 
+
+[25-Oct-2013 23:03:37 UTC] Phirehose: delimited=length
+
+[25-Oct-2013 23:03:37 UTC] Phirehose: 
+
+[25-Oct-2013 23:03:38 UTC] Phirehose: HTTP failure 3 of 20 connecting to stream: HTTP ERROR 406: Not Acceptable (No filter parameters found. Expect at least one parameter: follow track locations). Sleeping for 40 seconds.
+[25-Oct-2013 23:03:54 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'the',)
+[25-Oct-2013 23:03:54 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[25-Oct-2013 23:03:54 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[25-Oct-2013 23:03:55 UTC] Phirehose: Connection established to 199.59.148.138
+[25-Oct-2013 23:03:55 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 23:03:55 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 23:03:55 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 23:03:55 UTC] Phirehose: Content-length: 26
+
+[25-Oct-2013 23:03:55 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 23:03:55 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="bfdbfb97c1746efc4bb369f6e8c70813",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382742235",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="3SXb6Mzv2caHQKFcS%2BOGd8pknOo%3D"
+
+[25-Oct-2013 23:03:55 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 23:03:55 UTC] Phirehose: 
+
+[25-Oct-2013 23:03:55 UTC] Phirehose: delimited=length&track=the
+
+[25-Oct-2013 23:03:55 UTC] Phirehose: 
+
+[25-Oct-2013 23:03:57 UTC] PHP Notice:  Undefined property: stdClass::$text in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:03:57 UTC] PHP Notice:  Undefined property: stdClass::$text in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:03:58 UTC] PHP Notice:  Undefined property: stdClass::$text in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:03:59 UTC] PHP Notice:  Undefined property: stdClass::$text in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:04:00 UTC] PHP Notice:  Undefined property: stdClass::$text in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:04:01 UTC] PHP Notice:  Undefined property: stdClass::$text in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:04:02 UTC] PHP Notice:  Undefined property: stdClass::$text in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:04:03 UTC] PHP Notice:  Undefined property: stdClass::$text in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:04:04 UTC] PHP Notice:  Undefined property: stdClass::$text in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:04:05 UTC] PHP Notice:  Undefined property: stdClass::$text in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:04:06 UTC] PHP Notice:  Undefined property: stdClass::$text in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:04:07 UTC] PHP Notice:  Undefined property: stdClass::$text in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:04:08 UTC] PHP Notice:  Undefined property: stdClass::$text in /home/mark/TwitterFun/MyFilter.php on line 24
+[25-Oct-2013 23:05:28 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'justin bieber',)
+[25-Oct-2013 23:05:28 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 23:05:28 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 23:05:29 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 23:05:29 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 23:05:29 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 23:05:29 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 23:05:29 UTC] Phirehose: Content-length: 38
+
+[25-Oct-2013 23:05:29 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 23:05:29 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="674790621915b1ec23d324a20b7824e0",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382742329",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="X8cXkJLfQCQrCrCLktGqrBaId1Y%3D"
+
+[25-Oct-2013 23:05:29 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 23:05:29 UTC] Phirehose: 
+
+[25-Oct-2013 23:05:29 UTC] Phirehose: delimited=length&track=justin%20bieber
+
+[25-Oct-2013 23:05:29 UTC] Phirehose: 
+
+[25-Oct-2013 23:07:21 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'tony abbott',)
+[25-Oct-2013 23:07:21 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 23:07:21 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 23:07:22 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 23:07:22 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 23:07:22 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 23:07:22 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 23:07:22 UTC] Phirehose: Content-length: 36
+
+[25-Oct-2013 23:07:22 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 23:07:22 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="dd07586c94a06d73a3845ffcbadd1f47",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382742442",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="M4isYmsPzNlfBj%2B1cyuxLczZcDY%3D"
+
+[25-Oct-2013 23:07:22 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 23:07:22 UTC] Phirehose: 
+
+[25-Oct-2013 23:07:22 UTC] Phirehose: delimited=length&track=tony%20abbott
+
+[25-Oct-2013 23:07:22 UTC] Phirehose: 
+
+[25-Oct-2013 23:08:25 UTC] Phirehose: Consume rate: 0 status/sec (0 total), avg enqueueStatus(): 0ms, avg checkFilterPredicates(): 0.01ms (1 total) over 62 seconds, max stream idle period: 32 seconds.
+[25-Oct-2013 23:09:50 UTC] Phirehose: Consume rate: 0 status/sec (4 total), avg enqueueStatus(): 0.33ms, avg checkFilterPredicates(): 0ms (7 total) over 85 seconds, max stream idle period: 27 seconds.
+[25-Oct-2013 23:10:54 UTC] Phirehose: Consume rate: 0 status/sec (3 total), avg enqueueStatus(): 0.33ms, avg checkFilterPredicates(): 0ms (5 total) over 64 seconds, max stream idle period: 30 seconds.
+[25-Oct-2013 23:12:04 UTC] Phirehose: Consume rate: 0 status/sec (2 total), avg enqueueStatus(): 0.3ms, avg checkFilterPredicates(): 0.02ms (4 total) over 70 seconds, max stream idle period: 26 seconds.
+[25-Oct-2013 23:13:07 UTC] Phirehose: Consume rate: 0 status/sec (5 total), avg enqueueStatus(): 0.17ms, avg checkFilterPredicates(): 0ms (8 total) over 63 seconds, max stream idle period: 18 seconds.
+[25-Oct-2013 23:14:11 UTC] Phirehose: Consume rate: 0 status/sec (2 total), avg enqueueStatus(): 0.17ms, avg checkFilterPredicates(): 0ms (4 total) over 64 seconds, max stream idle period: 28 seconds.
+[25-Oct-2013 23:15:13 UTC] Phirehose: Consume rate: 0 status/sec (3 total), avg enqueueStatus(): 0.2ms, avg checkFilterPredicates(): 0ms (4 total) over 62 seconds, max stream idle period: 27 seconds.
+[25-Oct-2013 23:16:16 UTC] Phirehose: Consume rate: 0 status/sec (4 total), avg enqueueStatus(): 0.5ms, avg checkFilterPredicates(): 0ms (7 total) over 63 seconds, max stream idle period: 18 seconds.
+[25-Oct-2013 23:17:16 UTC] Phirehose: Consume rate: 0 status/sec (3 total), avg enqueueStatus(): 0.38ms, avg checkFilterPredicates(): 0ms (5 total) over 60 seconds, max stream idle period: 28 seconds.
+[25-Oct-2013 23:18:27 UTC] Phirehose: Consume rate: 0 status/sec (5 total), avg enqueueStatus(): 0.29ms, avg checkFilterPredicates(): 0ms (6 total) over 71 seconds, max stream idle period: 23 seconds.
+[25-Oct-2013 23:19:29 UTC] Phirehose: Consume rate: 0 status/sec (0 total), avg enqueueStatus(): 0ms, avg checkFilterPredicates(): 0ms (3 total) over 62 seconds, max stream idle period: 30 seconds.
+[25-Oct-2013 23:20:55 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => '',)
+[25-Oct-2013 23:20:55 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 23:20:55 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 23:20:56 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 23:20:56 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 23:20:56 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 23:20:56 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 23:20:56 UTC] Phirehose: Content-length: 23
+
+[25-Oct-2013 23:20:56 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 23:20:56 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="f3f6f96816a117955817d703a7c873b5",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382743256",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="OOjN5VM4B0q%2FFlEfdOaeOV4cbKM%3D"
+
+[25-Oct-2013 23:20:56 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 23:20:56 UTC] Phirehose: 
+
+[25-Oct-2013 23:20:56 UTC] Phirehose: delimited=length&track=
+
+[25-Oct-2013 23:20:56 UTC] Phirehose: 
+
+[25-Oct-2013 23:20:56 UTC] Phirehose: HTTP failure 1 of 20 connecting to stream: HTTP ERROR 406: Not Acceptable (Parameter track item index 0 too short:). Sleeping for 10 seconds.
+[25-Oct-2013 23:21:12 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => ' ',)
+[25-Oct-2013 23:21:12 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 23:21:12 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 23:21:13 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 23:21:13 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 23:21:13 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 23:21:13 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 23:21:13 UTC] Phirehose: Content-length: 26
+
+[25-Oct-2013 23:21:13 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 23:21:13 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="792ab60185acdc88e3d5d37fededfc21",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382743273",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="0MfLCzzR9WzkhjNrSgG08chY%2BDM%3D"
+
+[25-Oct-2013 23:21:13 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 23:21:13 UTC] Phirehose: 
+
+[25-Oct-2013 23:21:13 UTC] Phirehose: delimited=length&track=%20
+
+[25-Oct-2013 23:21:13 UTC] Phirehose: 
+
+[25-Oct-2013 23:21:13 UTC] Phirehose: HTTP failure 1 of 20 connecting to stream: HTTP ERROR 406: Not Acceptable (No filter parameters found. Expect at least one parameter: follow track locations). Sleeping for 10 seconds.
+[25-Oct-2013 23:21:23 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => ' ',)
+[25-Oct-2013 23:21:23 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 23:21:23 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 23:21:24 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 23:21:24 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 23:21:24 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 23:21:24 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 23:21:24 UTC] Phirehose: Content-length: 26
+
+[25-Oct-2013 23:21:24 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 23:21:24 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="4186f19619070120d16b22fe9cd40be6",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382743284",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="bWMQpZDBKgQo62RWP%2FGp1zPCCN8%3D"
+
+[25-Oct-2013 23:21:24 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 23:21:24 UTC] Phirehose: 
+
+[25-Oct-2013 23:21:24 UTC] Phirehose: delimited=length&track=%20
+
+[25-Oct-2013 23:21:24 UTC] Phirehose: 
+
+[25-Oct-2013 23:21:25 UTC] Phirehose: HTTP failure 2 of 20 connecting to stream: HTTP ERROR 406: Not Acceptable (No filter parameters found. Expect at least one parameter: follow track locations). Sleeping for 20 seconds.
+[25-Oct-2013 23:21:33 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'the',)
+[25-Oct-2013 23:21:33 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[25-Oct-2013 23:21:33 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[25-Oct-2013 23:21:34 UTC] Phirehose: Connection established to 199.59.148.229
+[25-Oct-2013 23:21:34 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[25-Oct-2013 23:21:34 UTC] Phirehose: Host: stream.twitter.com:443
+
+[25-Oct-2013 23:21:34 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[25-Oct-2013 23:21:34 UTC] Phirehose: Content-length: 26
+
+[25-Oct-2013 23:21:34 UTC] Phirehose: Accept: */*
+
+[25-Oct-2013 23:21:34 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="40248fcdca510b24ae796785281530df",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382743294",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="m74ZbNu1BzlfiiOD4K0DaOy8Zt8%3D"
+
+[25-Oct-2013 23:21:34 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[25-Oct-2013 23:21:34 UTC] Phirehose: 
+
+[25-Oct-2013 23:21:34 UTC] Phirehose: delimited=length&track=the
+
+[25-Oct-2013 23:21:34 UTC] Phirehose: 
+
+[26-Oct-2013 02:59:41 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'the',)
+[26-Oct-2013 02:59:41 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[26-Oct-2013 02:59:41 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[26-Oct-2013 02:59:42 UTC] Phirehose: Connection established to 199.59.148.138
+[26-Oct-2013 02:59:42 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[26-Oct-2013 02:59:42 UTC] Phirehose: Host: stream.twitter.com:443
+
+[26-Oct-2013 02:59:42 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[26-Oct-2013 02:59:42 UTC] Phirehose: Content-length: 26
+
+[26-Oct-2013 02:59:42 UTC] Phirehose: Accept: */*
+
+[26-Oct-2013 02:59:42 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="b9181600c6872eac4d7312d79d5e6171",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382756382",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="OQeDrlW9ZU8YXYH7oI3YtDY5Yw4%3D"
+
+[26-Oct-2013 02:59:42 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[26-Oct-2013 02:59:42 UTC] Phirehose: 
+
+[26-Oct-2013 02:59:42 UTC] Phirehose: delimited=length&track=the
+
+[26-Oct-2013 02:59:42 UTC] Phirehose: 
+
+[26-Oct-2013 03:00:01 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'the',)
+[26-Oct-2013 03:00:01 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[26-Oct-2013 03:00:01 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[26-Oct-2013 03:00:01 UTC] Phirehose: Connection established to 199.59.148.229
+[26-Oct-2013 03:00:01 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[26-Oct-2013 03:00:01 UTC] Phirehose: Host: stream.twitter.com:443
+
+[26-Oct-2013 03:00:01 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[26-Oct-2013 03:00:01 UTC] Phirehose: Content-length: 26
+
+[26-Oct-2013 03:00:01 UTC] Phirehose: Accept: */*
+
+[26-Oct-2013 03:00:01 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="5f85134b254f957be42d319ce32436db",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382756401",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="cNCG0o59KDdZV167imgY79pbbW8%3D"
+
+[26-Oct-2013 03:00:01 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[26-Oct-2013 03:00:01 UTC] Phirehose: 
+
+[26-Oct-2013 03:00:01 UTC] Phirehose: delimited=length&track=the
+
+[26-Oct-2013 03:00:01 UTC] Phirehose: 
+
+[26-Oct-2013 03:07:18 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'the',)
+[26-Oct-2013 03:07:18 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[26-Oct-2013 03:07:18 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[26-Oct-2013 03:07:19 UTC] Phirehose: Connection established to 199.59.148.138
+[26-Oct-2013 03:07:19 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[26-Oct-2013 03:07:19 UTC] Phirehose: Host: stream.twitter.com:443
+
+[26-Oct-2013 03:07:19 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[26-Oct-2013 03:07:19 UTC] Phirehose: Content-length: 26
+
+[26-Oct-2013 03:07:19 UTC] Phirehose: Accept: */*
+
+[26-Oct-2013 03:07:19 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="5d781bc91f8403c8b2e2334f40ce8433",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382756839",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="JbLGBSQyb%2BoIrJJWMyi5O1nPGPo%3D"
+
+[26-Oct-2013 03:07:19 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[26-Oct-2013 03:07:19 UTC] Phirehose: 
+
+[26-Oct-2013 03:07:19 UTC] Phirehose: delimited=length&track=the
+
+[26-Oct-2013 03:07:19 UTC] Phirehose: 
+
+[26-Oct-2013 03:07:20 UTC] PHP Fatal error:  Class 'TwitterSentimentAnalysis' not found in /home/mark/TwitterServer/AWSinsertRawTweets.php on line 33
+[26-Oct-2013 03:08:29 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'delimited' => 'length',  'track' => 'the',)
+[26-Oct-2013 03:08:30 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[26-Oct-2013 03:08:30 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[26-Oct-2013 03:08:30 UTC] Phirehose: Connection established to 199.59.148.229
+[26-Oct-2013 03:08:30 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.0
+
+[26-Oct-2013 03:08:30 UTC] Phirehose: Host: stream.twitter.com:443
+
+[26-Oct-2013 03:08:30 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[26-Oct-2013 03:08:30 UTC] Phirehose: Content-length: 26
+
+[26-Oct-2013 03:08:30 UTC] Phirehose: Accept: */*
+
+[26-Oct-2013 03:08:30 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="8686da8659f92d3780d50f36afe26540",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1382756910",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="N%2FPLQXnh0zu20j0wiY3AOGahHYc%3D"
+
+[26-Oct-2013 03:08:30 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[26-Oct-2013 03:08:30 UTC] Phirehose: 
+
+[26-Oct-2013 03:08:30 UTC] Phirehose: delimited=length&track=the
+
+[26-Oct-2013 03:08:30 UTC] Phirehose: 
+
+[26-Oct-2013 03:09:31 UTC] Phirehose: Consume rate: 1 status/sec (47 total), avg enqueueStatus(): 1283.83ms, avg checkFilterPredicates(): 0ms (11 total) over 60 seconds, max stream idle period: 2 seconds.

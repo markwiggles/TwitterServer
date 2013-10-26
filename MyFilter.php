@@ -2,6 +2,7 @@
 
 require_once('lib/Phirehose.php');
 require_once('lib/OauthPhirehose.php');
+require_once ('AWSinsertRawTweets.php');
 
 /**
  * class using Phirehose to display a live filtered stream using track words 
@@ -11,19 +12,13 @@ class FilterTrackConsumer extends OauthPhirehose {
     /**
      * Enqueue each status
      * @param string $status
-     */
+     */  
+    
     public function enqueueStatus($status) {     
         
-         print $status;
+        print  $status."\n\n";
         
-        
-        $tweet = json_decode($status);
-        
-       //print $tweet;
-        
-        //print $tweet->{'text'}."\n";  //testing only
-      
-        // print $tweet->{'user'}->{'location'}."\n\n";
+        storeRawTweetsInDatabase($status);
     }
 }
 
