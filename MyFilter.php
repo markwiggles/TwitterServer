@@ -34,12 +34,12 @@ define("OAUTH_SECRET", "hVNkoq7IbpzmD3wi57gF2tUU8bbgZ3Kv9wKJ2JPk2o");
 //$trackWords = unserialize($argv[1]);
 //$boundingBox = unserialize($argv[2]);
 
-$trackWords = array('the'); //testing only ie no-one more popular than Justin is there?
+//$trackWords = array('the'); //testing only ie no-one more popular than Justin is there?
 //$boundingBox = "-28.03728,152.452799,-26.7775,153.55292";
 
 // Create the stream object from above class and start streaming
-$sc = new FilterTrackConsumer(OAUTH_TOKEN, OAUTH_SECRET, Phirehose::METHOD_FILTER);
-$sc->setTrack($trackWords);
+$sc = new FilterTrackConsumer(OAUTH_TOKEN, OAUTH_SECRET, Phirehose::METHOD_SAMPLE);
+//$sc->setTrack($trackWords);
 //$sc->setLocations(array(array($boundingBox)));
 $sc->consume();
 
