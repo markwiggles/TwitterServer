@@ -17,9 +17,9 @@ class FilterTrackConsumer extends OauthPhirehose {
     
     public function enqueueStatus($status) {     
         
-        print  $status."\n\n";
-        
+        //print  $status."\n\n";
         storeRawTweetsInDatabase($status);
+
     }
 }
 
@@ -39,6 +39,7 @@ define("OAUTH_SECRET", "hVNkoq7IbpzmD3wi57gF2tUU8bbgZ3Kv9wKJ2JPk2o");
 
 // Create the stream object from above class and start streaming
 $sc = new FilterTrackConsumer(OAUTH_TOKEN, OAUTH_SECRET, Phirehose::METHOD_SAMPLE);
+$sc->setLang('en');
 //$sc->setTrack($trackWords);
 //$sc->setLocations(array(array($boundingBox)));
 $sc->consume();
