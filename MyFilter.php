@@ -17,7 +17,7 @@ class FilterTrackConsumer extends OauthPhirehose {
     
     public function enqueueStatus($status) {     
         
-        //print  $status."\n\n";
+        print  $status."\n\n";
         storeRawTweetsInDatabase($status);
 
     }
