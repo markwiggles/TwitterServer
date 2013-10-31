@@ -5,6 +5,8 @@ require_once('lib/OauthPhirehose.php');
 
 require_once ('AWSinsertRawTweets.php');
 
+require_once ('Thread.php');
+
 /**
  * class using Phirehose to display a live filtered stream using track words 
  */
@@ -17,7 +19,7 @@ class FilterTrackConsumer extends OauthPhirehose {
     
     public function enqueueStatus($status) {     
         
-        print  $status."\n\n";
+        //print  $status."\n\n";
         storeRawTweetsInDatabase($status);
 
     }
@@ -44,3 +46,23 @@ $sc->setLang('en');
 //$sc->setLocations(array(array($boundingBox)));
 $sc->consume();
 
+
+// test to see if threading is available
+if( ! Thread::available() ) {
+    die( 'Threads not supported' );
+}
+ 
+// define the function to be run as a separate thread
+function processDatabaseUpdate() {
+   
+    // delete the tweets in the db every 10 minutes
+    
+    
+    
+    
+}
+//- See more at: http://blog.motane.lu/2009/01/02/multithreading-in-php/#sthash.uqx3nAP5.dpuf
+
+
+
+?>
