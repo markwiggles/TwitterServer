@@ -46,6 +46,7 @@ $result = $client->query(array(
 
 print_r($result['Items']);
 
+//delete results returned from the query based on range condition
 foreach($result['Items'] as $item) {
     $client->deleteItem(array(
         'TableName' => $tableName,
