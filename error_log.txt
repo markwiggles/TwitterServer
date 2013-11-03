@@ -1490,3 +1490,373 @@ Stack trace:
 [26-Oct-2013 03:08:30 UTC] Phirehose: 
 
 [26-Oct-2013 03:09:31 UTC] Phirehose: Consume rate: 1 status/sec (47 total), avg enqueueStatus(): 1283.83ms, avg checkFilterPredicates(): 0ms (11 total) over 60 seconds, max stream idle period: 2 seconds.
+[31-Oct-2013 07:59:07 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/sample.json with params: array (  'delimited' => 'length',  'language' => 'en',)
+[31-Oct-2013 07:59:07 UTC] Phirehose: Resolved host stream.twitter.com to 199.16.156.110, 199.16.156.20
+[31-Oct-2013 07:59:07 UTC] Phirehose: Connecting to ssl://199.16.156.20, port=443, connectTimeout=5
+[31-Oct-2013 07:59:08 UTC] Phirehose: Connection established to 199.16.156.20
+[31-Oct-2013 07:59:08 UTC] Phirehose: POST /1.1/statuses/sample.json HTTP/1.0
+
+[31-Oct-2013 07:59:08 UTC] Phirehose: Host: stream.twitter.com:443
+
+[31-Oct-2013 07:59:08 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[31-Oct-2013 07:59:08 UTC] Phirehose: Content-length: 28
+
+[31-Oct-2013 07:59:08 UTC] Phirehose: Accept: */*
+
+[31-Oct-2013 07:59:08 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="dddc37ddcd4c0012fd05db86189b6eb1",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1383206348",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="X3KIImCDjfGYMwDPM7DwuMV5WOg%3D"
+
+[31-Oct-2013 07:59:08 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[31-Oct-2013 07:59:08 UTC] Phirehose: 
+
+[31-Oct-2013 07:59:08 UTC] Phirehose: delimited=length&language=en
+
+[31-Oct-2013 07:59:08 UTC] Phirehose: 
+
+[31-Oct-2013 07:59:09 UTC] Phirehose: HTTP failure 1 of 20 connecting to stream: HTTP ERROR 401: Unauthorized (<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Error 401 Unauthorized</title></head><body><h2>HTTP ERROR: 401</h2><p>Problem accessing '/1.1/statuses/sample.json'. Reason:<pre>    Unauthorized</pre>). Sleeping for 10 seconds.
+[31-Oct-2013 07:59:19 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/sample.json with params: array (  'delimited' => 'length',  'language' => 'en',)
+[31-Oct-2013 07:59:19 UTC] Phirehose: Resolved host stream.twitter.com to 199.16.156.110, 199.16.156.20
+[31-Oct-2013 07:59:19 UTC] Phirehose: Connecting to ssl://199.16.156.110, port=443, connectTimeout=5
+[31-Oct-2013 07:59:20 UTC] Phirehose: Connection established to 199.16.156.110
+[31-Oct-2013 07:59:20 UTC] Phirehose: POST /1.1/statuses/sample.json HTTP/1.0
+
+[31-Oct-2013 07:59:20 UTC] Phirehose: Host: stream.twitter.com:443
+
+[31-Oct-2013 07:59:20 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[31-Oct-2013 07:59:20 UTC] Phirehose: Content-length: 28
+
+[31-Oct-2013 07:59:20 UTC] Phirehose: Accept: */*
+
+[31-Oct-2013 07:59:20 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="0186bd7a9e20e81a7a14f732dfd77122",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1383206360",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="5BgQuaq3sigwtTIin9L0dwjSP%2BM%3D"
+
+[31-Oct-2013 07:59:20 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[31-Oct-2013 07:59:20 UTC] Phirehose: 
+
+[31-Oct-2013 07:59:20 UTC] Phirehose: delimited=length&language=en
+
+[31-Oct-2013 07:59:20 UTC] Phirehose: 
+
+[31-Oct-2013 07:59:20 UTC] Phirehose: HTTP failure 2 of 20 connecting to stream: HTTP ERROR 401: Unauthorized (<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Error 401 Unauthorized</title></head><body><h2>HTTP ERROR: 401</h2><p>Problem accessing '/1.1/statuses/sample.json'. Reason:<pre>    Unauthorized</pre>). Sleeping for 20 seconds.
+[31-Oct-2013 07:59:40 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/sample.json with params: array (  'delimited' => 'length',  'language' => 'en',)
+[31-Oct-2013 07:59:40 UTC] Phirehose: Resolved host stream.twitter.com to 199.16.156.110, 199.16.156.20
+[31-Oct-2013 07:59:40 UTC] Phirehose: Connecting to ssl://199.16.156.20, port=443, connectTimeout=5
+[31-Oct-2013 07:59:41 UTC] Phirehose: Connection established to 199.16.156.20
+[31-Oct-2013 07:59:42 UTC] Phirehose: POST /1.1/statuses/sample.json HTTP/1.0
+
+[31-Oct-2013 07:59:42 UTC] Phirehose: Host: stream.twitter.com:443
+
+[31-Oct-2013 07:59:42 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[31-Oct-2013 07:59:42 UTC] Phirehose: Content-length: 28
+
+[31-Oct-2013 07:59:42 UTC] Phirehose: Accept: */*
+
+[31-Oct-2013 07:59:42 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="06842bde1342eb4d9626e0608d12889e",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1383206381",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="58RaRZ8sE7i8k6Bz9xd23F3PVdw%3D"
+
+[31-Oct-2013 07:59:42 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[31-Oct-2013 07:59:42 UTC] Phirehose: 
+
+[31-Oct-2013 07:59:42 UTC] Phirehose: delimited=length&language=en
+
+[31-Oct-2013 07:59:42 UTC] Phirehose: 
+
+[31-Oct-2013 07:59:42 UTC] Phirehose: HTTP failure 3 of 20 connecting to stream: HTTP ERROR 401: Unauthorized (<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Error 401 Unauthorized</title></head><body><h2>HTTP ERROR: 401</h2><p>Problem accessing '/1.1/statuses/sample.json'. Reason:<pre>    Unauthorized</pre>). Sleeping for 40 seconds.
+[31-Oct-2013 08:00:22 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, no array or string given in /home/mark/TwitterServer/Thread.php on line 152
+[31-Oct-2013 08:02:31 UTC] PHP Notice:  Undefined variable: thread in /home/mark/TwitterServer/MyFilter.php on line 75
+[31-Oct-2013 08:02:31 UTC] PHP Fatal error:  Call to a member function isAlive() on a non-object in /home/mark/TwitterServer/MyFilter.php on line 75
+[03-Nov-2013 01:16:01 UTC] PHP Warning:  require_once(Thread.php): failed to open stream: No such file or directory in /home/mark/TwitterServer/MyFilter.php on line 8
+[03-Nov-2013 01:16:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'Thread.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/mark/TwitterServer/MyFilter.php on line 8
+[03-Nov-2013 01:16:15 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/sample.json with params: array (  'delimited' => 'length',  'language' => 'en',)
+[03-Nov-2013 01:16:16 UTC] Phirehose: Resolved host stream.twitter.com to 199.16.156.20, 199.16.156.110
+[03-Nov-2013 01:16:16 UTC] Phirehose: Connecting to ssl://199.16.156.20, port=443, connectTimeout=5
+[03-Nov-2013 01:16:16 UTC] Phirehose: Connection established to 199.16.156.20
+[03-Nov-2013 01:16:16 UTC] Phirehose: POST /1.1/statuses/sample.json HTTP/1.0
+
+[03-Nov-2013 01:16:16 UTC] Phirehose: Host: stream.twitter.com:443
+
+[03-Nov-2013 01:16:16 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[03-Nov-2013 01:16:16 UTC] Phirehose: Content-length: 28
+
+[03-Nov-2013 01:16:16 UTC] Phirehose: Accept: */*
+
+[03-Nov-2013 01:16:16 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="b2896079ed139fa4f4ff6dae165fd3ab",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1383441376",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="Zg77pwZ51yYr%2F7XkiJGzS3YmiOE%3D"
+
+[03-Nov-2013 01:16:16 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[03-Nov-2013 01:16:16 UTC] Phirehose: 
+
+[03-Nov-2013 01:16:16 UTC] Phirehose: delimited=length&language=en
+
+[03-Nov-2013 01:16:16 UTC] Phirehose: 
+
+[03-Nov-2013 01:16:17 UTC] Phirehose: HTTP failure 1 of 20 connecting to stream: HTTP ERROR 401: Unauthorized (<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Error 401 Unauthorized</title></head><body><h2>HTTP ERROR: 401</h2><p>Problem accessing '/1.1/statuses/sample.json'. Reason:<pre>    Unauthorized</pre>). Sleeping for 10 seconds.
+[03-Nov-2013 01:16:27 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/sample.json with params: array (  'delimited' => 'length',  'language' => 'en',)
+[03-Nov-2013 01:16:27 UTC] Phirehose: Resolved host stream.twitter.com to 199.16.156.20, 199.16.156.110
+[03-Nov-2013 01:16:27 UTC] Phirehose: Connecting to ssl://199.16.156.110, port=443, connectTimeout=5
+[03-Nov-2013 01:16:28 UTC] Phirehose: Connection established to 199.16.156.110
+[03-Nov-2013 01:16:28 UTC] Phirehose: POST /1.1/statuses/sample.json HTTP/1.0
+
+[03-Nov-2013 01:16:28 UTC] Phirehose: Host: stream.twitter.com:443
+
+[03-Nov-2013 01:16:28 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[03-Nov-2013 01:16:28 UTC] Phirehose: Content-length: 28
+
+[03-Nov-2013 01:16:28 UTC] Phirehose: Accept: */*
+
+[03-Nov-2013 01:16:28 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="4a9b5ae1c69cdb57e816fb284c6c91fd",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1383441388",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="2naWCRxD37vnCQwq%2FemyeiF7DXo%3D"
+
+[03-Nov-2013 01:16:28 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[03-Nov-2013 01:16:28 UTC] Phirehose: 
+
+[03-Nov-2013 01:16:28 UTC] Phirehose: delimited=length&language=en
+
+[03-Nov-2013 01:16:28 UTC] Phirehose: 
+
+[03-Nov-2013 01:16:29 UTC] Phirehose: HTTP failure 2 of 20 connecting to stream: HTTP ERROR 401: Unauthorized (<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Error 401 Unauthorized</title></head><body><h2>HTTP ERROR: 401</h2><p>Problem accessing '/1.1/statuses/sample.json'. Reason:<pre>    Unauthorized</pre>). Sleeping for 20 seconds.
+[03-Nov-2013 01:16:49 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/sample.json with params: array (  'delimited' => 'length',  'language' => 'en',)
+[03-Nov-2013 01:16:49 UTC] Phirehose: Resolved host stream.twitter.com to 199.16.156.20, 199.16.156.110
+[03-Nov-2013 01:16:49 UTC] Phirehose: Connecting to ssl://199.16.156.20, port=443, connectTimeout=5
+[03-Nov-2013 01:16:50 UTC] Phirehose: Connection established to 199.16.156.20
+[03-Nov-2013 01:16:50 UTC] Phirehose: POST /1.1/statuses/sample.json HTTP/1.0
+
+[03-Nov-2013 01:16:50 UTC] Phirehose: Host: stream.twitter.com:443
+
+[03-Nov-2013 01:16:50 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[03-Nov-2013 01:16:50 UTC] Phirehose: Content-length: 28
+
+[03-Nov-2013 01:16:50 UTC] Phirehose: Accept: */*
+
+[03-Nov-2013 01:16:50 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="3258137f358eee58dd79b168b3887a51",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1383441410",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="ISfb3vcO0oG6QiqoIf85k87QxWU%3D"
+
+[03-Nov-2013 01:16:50 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[03-Nov-2013 01:16:50 UTC] Phirehose: 
+
+[03-Nov-2013 01:16:50 UTC] Phirehose: delimited=length&language=en
+
+[03-Nov-2013 01:16:50 UTC] Phirehose: 
+
+[03-Nov-2013 01:16:51 UTC] Phirehose: HTTP failure 3 of 20 connecting to stream: HTTP ERROR 401: Unauthorized (<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Error 401 Unauthorized</title></head><body><h2>HTTP ERROR: 401</h2><p>Problem accessing '/1.1/statuses/sample.json'. Reason:<pre>    Unauthorized</pre>). Sleeping for 40 seconds.
+[03-Nov-2013 09:55:26 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/sample.json with params: array (  'delimited' => 'length',  'language' => 'en',)
+[03-Nov-2013 09:55:26 UTC] Phirehose: Resolved host stream.twitter.com to 199.16.156.110, 199.16.156.20
+[03-Nov-2013 09:55:26 UTC] Phirehose: Connecting to ssl://199.16.156.110, port=443, connectTimeout=5
+[03-Nov-2013 09:55:27 UTC] Phirehose: Connection established to 199.16.156.110
+[03-Nov-2013 09:55:27 UTC] Phirehose: POST /1.1/statuses/sample.json HTTP/1.0
+
+[03-Nov-2013 09:55:27 UTC] Phirehose: Host: stream.twitter.com:443
+
+[03-Nov-2013 09:55:27 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[03-Nov-2013 09:55:27 UTC] Phirehose: Content-length: 28
+
+[03-Nov-2013 09:55:27 UTC] Phirehose: Accept: */*
+
+[03-Nov-2013 09:55:27 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="117f1b078de493dae00af251390f987d",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1383472527",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="kkrvtVUekC7EsYjFDXY%2BOeDklI8%3D"
+
+[03-Nov-2013 09:55:27 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[03-Nov-2013 09:55:27 UTC] Phirehose: 
+
+[03-Nov-2013 09:55:27 UTC] Phirehose: delimited=length&language=en
+
+[03-Nov-2013 09:55:27 UTC] Phirehose: 
+
+[03-Nov-2013 09:56:28 UTC] Phirehose: Consume rate: 1 status/sec (49 total), avg enqueueStatus(): 1229.69ms, avg checkFilterPredicates(): 0ms (0 total) over 61 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:20:28 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/sample.json with params: array (  'delimited' => 'length',  'language' => 'en',)
+[03-Nov-2013 10:20:28 UTC] Phirehose: Resolved host stream.twitter.com to 199.16.156.110, 199.16.156.20
+[03-Nov-2013 10:20:28 UTC] Phirehose: Connecting to ssl://199.16.156.20, port=443, connectTimeout=5
+[03-Nov-2013 10:20:30 UTC] Phirehose: Connection established to 199.16.156.20
+[03-Nov-2013 10:20:30 UTC] Phirehose: POST /1.1/statuses/sample.json HTTP/1.0
+
+[03-Nov-2013 10:20:30 UTC] Phirehose: Host: stream.twitter.com:443
+
+[03-Nov-2013 10:20:30 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[03-Nov-2013 10:20:30 UTC] Phirehose: Content-length: 28
+
+[03-Nov-2013 10:20:30 UTC] Phirehose: Accept: */*
+
+[03-Nov-2013 10:20:30 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="1ed82832aadcd3981ac0fd8cbf1253a8",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1383474030",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="fKpAHKJVpK%2BNPFjgoCBjIAu%2FaYI%3D"
+
+[03-Nov-2013 10:20:30 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[03-Nov-2013 10:20:30 UTC] Phirehose: 
+
+[03-Nov-2013 10:20:30 UTC] Phirehose: delimited=length&language=en
+
+[03-Nov-2013 10:20:30 UTC] Phirehose: 
+
+[03-Nov-2013 10:21:30 UTC] Phirehose: Consume rate: 1 status/sec (47 total), avg enqueueStatus(): 1276.14ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:22:31 UTC] Phirehose: Consume rate: 1 status/sec (48 total), avg enqueueStatus(): 1257.58ms, avg checkFilterPredicates(): 0ms (0 total) over 61 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:23:31 UTC] Phirehose: Consume rate: 1 status/sec (48 total), avg enqueueStatus(): 1247.76ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:24:31 UTC] Phirehose: Consume rate: 1 status/sec (49 total), avg enqueueStatus(): 1233.27ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:25:31 UTC] Phirehose: Consume rate: 1 status/sec (46 total), avg enqueueStatus(): 1300.44ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:26:31 UTC] Phirehose: Consume rate: 1 status/sec (48 total), avg enqueueStatus(): 1244.62ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 4 seconds.
+[03-Nov-2013 10:27:32 UTC] Phirehose: Consume rate: 1 status/sec (37 total), avg enqueueStatus(): 1647.08ms, avg checkFilterPredicates(): 0ms (0 total) over 61 seconds, max stream idle period: 11 seconds.
+[03-Nov-2013 10:28:32 UTC] Phirehose: Consume rate: 1 status/sec (45 total), avg enqueueStatus(): 1351.67ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 4 seconds.
+[03-Nov-2013 10:28:34 UTC] Phirehose: Phirehose connection error occured: Socket disconnected
+[03-Nov-2013 10:28:34 UTC] Phirehose: Closing Phirehose connection.
+[03-Nov-2013 10:28:34 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/sample.json with params: array (  'delimited' => 'length',  'language' => 'en',)
+[03-Nov-2013 10:28:34 UTC] Phirehose: Resolved host stream.twitter.com to 199.16.156.20, 199.16.156.110
+[03-Nov-2013 10:28:34 UTC] Phirehose: Connecting to ssl://199.16.156.110, port=443, connectTimeout=5
+[03-Nov-2013 10:28:35 UTC] Phirehose: Connection established to 199.16.156.110
+[03-Nov-2013 10:28:35 UTC] Phirehose: POST /1.1/statuses/sample.json HTTP/1.0
+
+[03-Nov-2013 10:28:35 UTC] Phirehose: Host: stream.twitter.com:443
+
+[03-Nov-2013 10:28:35 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[03-Nov-2013 10:28:35 UTC] Phirehose: Content-length: 28
+
+[03-Nov-2013 10:28:35 UTC] Phirehose: Accept: */*
+
+[03-Nov-2013 10:28:35 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="81a1255b5ab4a35173ac383abc53b8f7",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1383474515",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="5cEwp4G0OpyTdpTPlH8dD78i%2BrM%3D"
+
+[03-Nov-2013 10:28:35 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[03-Nov-2013 10:28:35 UTC] Phirehose: 
+
+[03-Nov-2013 10:28:35 UTC] Phirehose: delimited=length&language=en
+
+[03-Nov-2013 10:28:35 UTC] Phirehose: 
+
+[03-Nov-2013 10:29:36 UTC] Phirehose: Consume rate: 1 status/sec (49 total), avg enqueueStatus(): 1242.47ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:30:37 UTC] Phirehose: Consume rate: 1 status/sec (49 total), avg enqueueStatus(): 1240.87ms, avg checkFilterPredicates(): 0ms (0 total) over 61 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:31:37 UTC] Phirehose: Consume rate: 1 status/sec (45 total), avg enqueueStatus(): 1336.28ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 4 seconds.
+[03-Nov-2013 10:32:37 UTC] Phirehose: Consume rate: 1 status/sec (48 total), avg enqueueStatus(): 1257.6ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:33:38 UTC] Phirehose: Consume rate: 1 status/sec (49 total), avg enqueueStatus(): 1233.59ms, avg checkFilterPredicates(): 0ms (0 total) over 61 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:34:38 UTC] Phirehose: Consume rate: 1 status/sec (48 total), avg enqueueStatus(): 1263.44ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:35:38 UTC] Phirehose: Consume rate: 1 status/sec (47 total), avg enqueueStatus(): 1264.67ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:36:33 UTC] Phirehose: Phirehose connection error occured: Socket disconnected
+[03-Nov-2013 10:36:33 UTC] Phirehose: Closing Phirehose connection.
+[03-Nov-2013 10:36:33 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/sample.json with params: array (  'delimited' => 'length',  'language' => 'en',)
+[03-Nov-2013 10:36:33 UTC] Phirehose: Resolved host stream.twitter.com to 199.16.156.20, 199.16.156.110
+[03-Nov-2013 10:36:33 UTC] Phirehose: Connecting to ssl://199.16.156.110, port=443, connectTimeout=5
+[03-Nov-2013 10:36:34 UTC] Phirehose: Connection established to 199.16.156.110
+[03-Nov-2013 10:36:34 UTC] Phirehose: POST /1.1/statuses/sample.json HTTP/1.0
+
+[03-Nov-2013 10:36:34 UTC] Phirehose: Host: stream.twitter.com:443
+
+[03-Nov-2013 10:36:34 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[03-Nov-2013 10:36:34 UTC] Phirehose: Content-length: 28
+
+[03-Nov-2013 10:36:34 UTC] Phirehose: Accept: */*
+
+[03-Nov-2013 10:36:34 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="a2bf3281f7a1ec3765cc186348d5297c",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1383474994",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="N6G7TpCLk4DjqJU9XbRqUh2N0XQ%3D"
+
+[03-Nov-2013 10:36:34 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[03-Nov-2013 10:36:34 UTC] Phirehose: 
+
+[03-Nov-2013 10:36:34 UTC] Phirehose: delimited=length&language=en
+
+[03-Nov-2013 10:36:34 UTC] Phirehose: 
+
+[03-Nov-2013 10:37:35 UTC] Phirehose: Consume rate: 2 status/sec (92 total), avg enqueueStatus(): 1248.59ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:38:35 UTC] Phirehose: Consume rate: 1 status/sec (48 total), avg enqueueStatus(): 1254.95ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:39:35 UTC] Phirehose: Consume rate: 1 status/sec (48 total), avg enqueueStatus(): 1258.21ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:40:35 UTC] Phirehose: Consume rate: 1 status/sec (47 total), avg enqueueStatus(): 1262.88ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:41:35 UTC] Phirehose: Consume rate: 1 status/sec (47 total), avg enqueueStatus(): 1276.79ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:42:35 UTC] Phirehose: Consume rate: 1 status/sec (47 total), avg enqueueStatus(): 1284.99ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 3 seconds.
+[03-Nov-2013 10:43:35 UTC] Phirehose: Consume rate: 1 status/sec (43 total), avg enqueueStatus(): 1381.97ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 7 seconds.
+[03-Nov-2013 10:44:35 UTC] Phirehose: Consume rate: 1 status/sec (47 total), avg enqueueStatus(): 1286.39ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:44:49 UTC] Phirehose: Phirehose connection error occured: Socket disconnected
+[03-Nov-2013 10:44:49 UTC] Phirehose: Closing Phirehose connection.
+[03-Nov-2013 10:44:49 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/sample.json with params: array (  'delimited' => 'length',  'language' => 'en',)
+[03-Nov-2013 10:44:50 UTC] Phirehose: Resolved host stream.twitter.com to 199.16.156.110, 199.16.156.20
+[03-Nov-2013 10:44:50 UTC] Phirehose: Connecting to ssl://199.16.156.110, port=443, connectTimeout=5
+[03-Nov-2013 10:44:50 UTC] Phirehose: Connection established to 199.16.156.110
+[03-Nov-2013 10:44:50 UTC] Phirehose: POST /1.1/statuses/sample.json HTTP/1.0
+
+[03-Nov-2013 10:44:50 UTC] Phirehose: Host: stream.twitter.com:443
+
+[03-Nov-2013 10:44:50 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[03-Nov-2013 10:44:50 UTC] Phirehose: Content-length: 28
+
+[03-Nov-2013 10:44:50 UTC] Phirehose: Accept: */*
+
+[03-Nov-2013 10:44:50 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="3cea50056adb2cde3316a000517ec192",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1383475490",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="VtsA8gcrIcNRI%2BEkLYwarzpWTQU%3D"
+
+[03-Nov-2013 10:44:50 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[03-Nov-2013 10:44:50 UTC] Phirehose: 
+
+[03-Nov-2013 10:44:50 UTC] Phirehose: delimited=length&language=en
+
+[03-Nov-2013 10:44:50 UTC] Phirehose: 
+
+[03-Nov-2013 10:45:52 UTC] Phirehose: Consume rate: 1 status/sec (59 total), avg enqueueStatus(): 1265.25ms, avg checkFilterPredicates(): 0ms (0 total) over 61 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:46:52 UTC] Phirehose: Consume rate: 1 status/sec (49 total), avg enqueueStatus(): 1226.82ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:47:52 UTC] Phirehose: Consume rate: 1 status/sec (49 total), avg enqueueStatus(): 1235.53ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:48:52 UTC] Phirehose: Consume rate: 1 status/sec (48 total), avg enqueueStatus(): 1252ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:49:52 UTC] Phirehose: Consume rate: 1 status/sec (48 total), avg enqueueStatus(): 1247.95ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:50:53 UTC] Phirehose: Consume rate: 1 status/sec (49 total), avg enqueueStatus(): 1228.52ms, avg checkFilterPredicates(): 0ms (0 total) over 61 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:51:54 UTC] Phirehose: Consume rate: 1 status/sec (49 total), avg enqueueStatus(): 1243.87ms, avg checkFilterPredicates(): 0ms (0 total) over 61 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:52:54 UTC] Phirehose: Consume rate: 1 status/sec (49 total), avg enqueueStatus(): 1228.27ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:52:59 UTC] Phirehose: Phirehose connection error occured: Socket disconnected
+[03-Nov-2013 10:52:59 UTC] Phirehose: Closing Phirehose connection.
+[03-Nov-2013 10:52:59 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/sample.json with params: array (  'delimited' => 'length',  'language' => 'en',)
+[03-Nov-2013 10:52:59 UTC] Phirehose: Resolved host stream.twitter.com to 199.16.156.110, 199.16.156.20
+[03-Nov-2013 10:52:59 UTC] Phirehose: Connecting to ssl://199.16.156.20, port=443, connectTimeout=5
+[03-Nov-2013 10:53:00 UTC] Phirehose: Connection established to 199.16.156.20
+[03-Nov-2013 10:53:00 UTC] Phirehose: POST /1.1/statuses/sample.json HTTP/1.0
+
+[03-Nov-2013 10:53:00 UTC] Phirehose: Host: stream.twitter.com:443
+
+[03-Nov-2013 10:53:00 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[03-Nov-2013 10:53:00 UTC] Phirehose: Content-length: 28
+
+[03-Nov-2013 10:53:00 UTC] Phirehose: Accept: */*
+
+[03-Nov-2013 10:53:00 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="a1a2dfe29983ac1fa0102d4c3393c902",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1383475980",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="Ca%2FzDBKV6Co%2FElQOGOd7w%2Bfu3og%3D"
+
+[03-Nov-2013 10:53:00 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[03-Nov-2013 10:53:00 UTC] Phirehose: 
+
+[03-Nov-2013 10:53:00 UTC] Phirehose: delimited=length&language=en
+
+[03-Nov-2013 10:53:00 UTC] Phirehose: 
+
+[03-Nov-2013 10:54:00 UTC] Phirehose: Consume rate: 1 status/sec (49 total), avg enqueueStatus(): 1291.98ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:55:00 UTC] Phirehose: Consume rate: 1 status/sec (47 total), avg enqueueStatus(): 1271.74ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:56:39 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/sample.json with params: array (  'delimited' => 'length',  'language' => 'en',)
+[03-Nov-2013 10:56:39 UTC] Phirehose: Resolved host stream.twitter.com to 199.16.156.110, 199.16.156.20
+[03-Nov-2013 10:56:39 UTC] Phirehose: Connecting to ssl://199.16.156.20, port=443, connectTimeout=5
+[03-Nov-2013 10:56:40 UTC] Phirehose: Connection established to 199.16.156.20
+[03-Nov-2013 10:56:40 UTC] Phirehose: POST /1.1/statuses/sample.json HTTP/1.0
+
+[03-Nov-2013 10:56:40 UTC] Phirehose: Host: stream.twitter.com:443
+
+[03-Nov-2013 10:56:40 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[03-Nov-2013 10:56:40 UTC] Phirehose: Content-length: 28
+
+[03-Nov-2013 10:56:40 UTC] Phirehose: Accept: */*
+
+[03-Nov-2013 10:56:40 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="68d0256e4fd0bacc543991b90c66ccfc",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1383476200",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="rk56kzdncl79S%2B4LKlzznS3FlHc%3D"
+
+[03-Nov-2013 10:56:40 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[03-Nov-2013 10:56:40 UTC] Phirehose: 
+
+[03-Nov-2013 10:56:40 UTC] Phirehose: delimited=length&language=en
+
+[03-Nov-2013 10:56:40 UTC] Phirehose: 
+
+[03-Nov-2013 10:57:40 UTC] Phirehose: Consume rate: 1 status/sec (47 total), avg enqueueStatus(): 1265.41ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:58:40 UTC] Phirehose: Consume rate: 1 status/sec (44 total), avg enqueueStatus(): 1370.67ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[03-Nov-2013 10:59:40 UTC] Phirehose: Consume rate: 1 status/sec (41 total), avg enqueueStatus(): 1451.01ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 8 seconds.
+[03-Nov-2013 11:00:40 UTC] Phirehose: Consume rate: 1 status/sec (43 total), avg enqueueStatus(): 1414.26ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 6 seconds.
+[03-Nov-2013 11:01:40 UTC] Phirehose: Consume rate: 1 status/sec (47 total), avg enqueueStatus(): 1271.14ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.

@@ -7,6 +7,14 @@
     <body>
         <?php
         
+        $currTime = time();
+        
+        echo $currTime . "<br>";
+        
+        $time = strtotime('- 1 minutes');
+        
+        echo $time . "<br>";
+        
         ?>
     </body>
 </html>

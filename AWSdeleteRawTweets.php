@@ -6,9 +6,6 @@ ini_set('log_errors', 1);
 ini_set('error_log', dirname(__FILE__) . '/error_log.txt');
 error_reporting(E_ALL);
 
-/*
-  gets the tweets from the AWS database
- */
 
 require 'AWSSDKforPHP/aws.phar';
 
@@ -20,10 +17,28 @@ $client = DynamoDbClient::factory(array(
             'region' => 'us-west-2'
         ));
 
-$tableName = 'MSrawTweets';
-$rangeId = strtotime("-1 day"); 
+while (true) {
+    
+    deleteOldTweets($client);
+    sleep(60);
+}
 
-$result = $client->query(array(
+
+
+
+
+/*
+  gets the older tweets from the AWS database
+ */
+
+function deleteOldTweets($client) {
+
+    $tableName = 'MSrawTweets';
+    
+    //specify how old
+    $rangeId = strtotime("-1 minutes");
+
+    $result = $client->query(array(
         'TableName' => $tableName,
         'KeyConditions' => array(
             'indexId' => array(
@@ -32,11 +47,9 @@ $result = $client->query(array(
                 ),
                 'ComparisonOperator' => 'EQ'
             ),
-
             'rangeId' => array(
                 'AttributeValueList' => array(
                     array('N' => $rangeId),
-                    
                 ),
                 'ComparisonOperator' => 'LE'
             )
@@ -44,16 +57,18 @@ $result = $client->query(array(
         'ScanIndexForward' => false
     ));
 
-print_r($result['Items']);
+    //print_r($result['Items']);
 
 //delete results returned from the query based on range condition
-foreach($result['Items'] as $item) {
-    $client->deleteItem(array(
-        'TableName' => $tableName,
-        'Key' => array(
-            'indexId'   => array('S' => $item['indexId']['S']),
-            'rangeId' => array('N' => $item['rangeId']['N'])
-        )
-    ));
+    foreach ($result['Items'] as $item) {
+        $client->deleteItem(array(
+            'TableName' => $tableName,
+            'Key' => array(
+                'indexId' => array('S' => $item['indexId']['S']),
+                'rangeId' => array('N' => $item['rangeId']['N'])
+            )
+        ));
+    }
 }
+
 ?>
