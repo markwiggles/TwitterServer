@@ -1,43 +1,47 @@
 <?php
 
-//for testing purposes
+//For testing purposes
 ini_set('display_errors', 1);
 ini_set('log_errors', 1);
 ini_set('error_log', dirname(__FILE__) . '/error_log.txt');
 error_reporting(E_ALL);
 
+/*
+  Deletes raw tweets from MSrawTweets table
+ * of DynamoDB in the past hour
+ */
 
 require 'AWSSDKforPHP/aws.phar';
 
 use Aws\DynamoDb\DynamoDbClient;
 
+//Setup client connection to DynamoDB
 $client = DynamoDbClient::factory(array(
             'key' => 'AKIAIK7RCPMWTZVQWJIA',
             'secret' => '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',
             'region' => 'us-west-2'
         ));
 
+//Function call to delete tweets
 while (true) {
-    
     deleteOldTweets($client);
     sleep(60);
 }
 
-
-
-
-
 /*
-  gets the older tweets from the AWS database
+ * Function to get older raw tweets from MSrawTweets table
+ * in the past hour and delete them
  */
-
 function deleteOldTweets($client) {
-
+    
+    //Name of the DynamoDB table which stores
+    //raw tweets from the twitter stream
     $tableName = 'MSrawTweets';
     
-    //specify how old
+    //Specify the time limit
     $rangeId = strtotime("-1 minutes");
 
+    //We get the posts in the last hour from the database
     $result = $client->query(array(
         'TableName' => $tableName,
         'KeyConditions' => array(
@@ -57,9 +61,8 @@ function deleteOldTweets($client) {
         'ScanIndexForward' => false
     ));
 
-    //print_r($result['Items']);
-
-//delete results returned from the query based on range condition
+    //Delete results returned from the query 
+    //based on range id condition
     foreach ($result['Items'] as $item) {
         $client->deleteItem(array(
             'TableName' => $tableName,
@@ -69,6 +72,6 @@ function deleteOldTweets($client) {
             )
         ));
     }
-}
+}//end of deleteOldTweets()
 
 ?>
