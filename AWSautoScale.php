@@ -15,123 +15,154 @@ require 'AWSSDKforPHP/aws.phar';
 
 use Aws\AutoScaling\AutoScalingClient;
 
-
 //the client connection
 $client = AutoScalingClient::factory(array(
             'key' => 'AKIAIK7RCPMWTZVQWJIA',
             'secret' => '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',
             'region' => 'us-west-2'
         ));
+/**************************************************************************/
+/*BUILD METHODS*/
+//createLaunchConfiguration($client); //creates MSlaunchConfiguration
+//createAutoScalingGroup($client); //creates MSscaling Group
+//putScalingPolicyUp($client); //creates scaling policy for scaling up by 1
+//putScalingPolicyDown($client);//creates scaling policy for scaling down by 1
+
+/**************************************************************************/
+/*TEAR DOWN METHODS*/
+//updateAutoScalingGroup($client); //set min/max instance size to 0
+//deleteAutoScalingGroup($client); //deletes the MSscalingGroup
+//deleteLaunchConfiguration($client); //deletes MSlaunchConfig
+
+/**************************************************************************/
+/*DESCRIBE GROUPS AND POLICIES*/
+//$description = describeAutoScalingGroups($client);
+//print_r(describeAutoScalingInstances($client));
+//$json_array = $description['AutoScalingGroups'][0];
+//print_r($json_array);
+//print_r(describePolicies($client));
 
 
-echo"test";
+/**************************************************************************/
 
-putScalingPolicy($client);
-
-describeAutoScalingGroups($client);
 
 function createLaunchConfiguration($client) {
-
-    $result = $client->createLaunchConfiguration(array(
-        // LaunchConfigurationName is required
+    $result = $client->createLaunchConfiguration(array(      
         'LaunchConfigurationName' => 'MSlaunchConfig',
-        // ImageId is required
-        'ImageId' => 'ami-1c27be2c',
+        'ImageId' => 'ami-ce30a8fe',
         'KeyName' => 'sentimentKeyPair',
-        'SecurityGroups' => array('Node Server'),
-        //'UserData' => 'string',
-        // InstanceType is required
+        'SecurityGroups' => array('MSsecurityGroup'),
         'InstanceType' => 't1.micro'
-            //'KernelId' => 'string',
-            //'RamdiskId' => 'string',
-            //'BlockDeviceMappings' => array(
-            //   array(
-//            'VirtualName' => 'string',
-//            // DeviceName is required
-//            'DeviceName' => 'string',
-//            'Ebs' => array(
-//                'SnapshotId' => 'string',
-//                'VolumeSize' => integer,
-//            ),
-//        ),
-//        // ... repeated
-//    ),
-//    'InstanceMonitoring' => array(
-//        'Enabled' => true || false,
-//    ),
-//    'SpotPrice' => 'string',
-//    'IamInstanceProfile' => 'string',
-//    'EbsOptimized' => true || false,
-//    'AssociatePublicIpAddress' => true || false,
     ));
-
-    var_dump($result);
+    return $result;
 }
 
 function createAutoScalingGroup($client) {
-
     $result = $client->createAutoScalingGroup(array(
-        // AutoScalingGroupName is required
         'AutoScalingGroupName' => 'MSscalingGroup',
-        // LaunchConfigurationName is required
         'LaunchConfigurationName' => 'MSlaunchConfig',
-        // MinSize is required
         'MinSize' => 1,
-        // MaxSize is required
-        'MaxSize' => 1,
-        //'DesiredCapacity' => integer,
+        'MaxSize' => 10,
         'DefaultCooldown' => 300,
         'AvailabilityZones' => array('us-west-2a', 'us-west-2b', 'us-west-2c'),
         'LoadBalancerNames' => array('MSloadBalancer')
-            //'HealthCheckType' => 'string',
-            //'HealthCheckGracePeriod' => integer,
-            //'PlacementGroup' => 'string',
-            //'VPCZoneIdentifier' => 'string',
-            //'TerminationPolicies' => array('string', ... ),
-//    'Tags' => array(
-//    array(
-//    'ResourceId' => 'string',
-//    'ResourceType' => 'string',
-//    // Key is required
-//    'Key' => 'string',
-//    'Value' => 'string',
-//    'PropagateAtLaunch' => true || false,
-//    ),
-//    // ... repeated
-//    ),
     ));
-
-    var_dump($result);
+    return $result;
 }
 
-function putScalingPolicy($client) {
-
+function putScalingPolicyUp($client) {
     $result = $client->putScalingPolicy(array(
-        // AutoScalingGroupName is required
         'AutoScalingGroupName' => 'MSscalingGroup',
-        // PolicyName is required
-        'PolicyName' => 'MSscalingPolicyDown',
-        // ScalingAdjustment is required
-        'ScalingAdjustment' => -1,
-        // AdjustmentType is required
+        'PolicyName' => 'MSscalingPolicyUp',
+        'ScalingAdjustment' => 1,
         'AdjustmentType' => 'ChangeInCapacity',
         'Cooldown' => 300
-            //'MinAdjustmentStep' => integer,
     ));
-    var_dump($result);
+    return $result;
+}
+
+function putScalingPolicyDown($client) {
+    $result = $client->putScalingPolicy(array(
+        'AutoScalingGroupName' => 'MSscalingGroup',
+        'PolicyName' => 'MSscalingPolicyDown',
+        'ScalingAdjustment' => -1,
+        'AdjustmentType' => 'ChangeInCapacity',
+        'Cooldown' => 300
+    ));
+    return $result;
+}
+
+
+
+function updateAutoScalingGroup($client) {
+    $result = $client->updateAutoScalingGroup(array(
+        'AutoScalingGroupName' => 'MSscalingGroup',
+        'LaunchConfigurationName' => 'MSlaunchConfig',
+        'MinSize' => 0,
+        'MaxSize' => 0,
+//    'DesiredCapacity' => integer,
+//    'DefaultCooldown' => integer,
+//    'AvailabilityZones' => array('string', ... ),
+//    'HealthCheckType' => 'string',
+//    'HealthCheckGracePeriod' => integer,
+//    'PlacementGroup' => 'string',
+//    'VPCZoneIdentifier' => 'string',
+//    'TerminationPolicies' => array('string', ... ),
+    ));
+    return $result;
+}
+
+function terminateInstanceInAutoScalingGroup($client) {
+
+    $result = $client->terminateInstanceInAutoScalingGroup(array(
+        'InstanceId' => 'string',
+        // ShouldDecrementDesiredCapacity is required
+        'ShouldDecrementDesiredCapacity' => true || false,
+    ));
+    return $result;
+}
+
+function deleteAutoScalingGroup($client) {
+    $result = $client->deleteAutoScalingGroup(array(
+        'AutoScalingGroupName' => 'MSscalingGroup',
+        'ForceDelete' => true,
+    ));
+    return $result;
+}
+
+function deleteLaunchConfiguration($client) {
+    $result = $client->deleteLaunchConfiguration(array(
+        'LaunchConfigurationName' => 'MSlaunchConfig'
+    ));
+   return $result;
 }
 
 function describeAutoScalingGroups($client) {
-    
+
     $result = $client->describeAutoScalingGroups(array(
-    'AutoScalingGroupNames' => array('MSscalingGroup'),
-    //'NextToken' => 'string',
-    //'MaxRecords' => integer,
+        'AutoScalingGroupNames' => array('MSscalingGroup'),
     ));
-    
-    var_dump($result);
-    
+    return $result;
 }
+
+function describePolicies($client) {
+    $result = $client->describePolicies(array(
+        'AutoScalingGroupName' => 'MSscalingGroup',
+        'PolicyNames' => array('MSscalingPolicyUp'),
+    ));
+    return $result;
+}
+
+function describeAutoScalingInstances($client) {
+
+    $result = $client->describeAutoScalingInstances(array(
+    'InstanceIds' => array(),
+    ));
+
+    return $result;
+}
+
+?>
 
 
 

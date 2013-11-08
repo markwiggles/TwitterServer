@@ -9,15 +9,12 @@ require_once ('AWSinsertTweets.php');
  * of tweets from twitter 
  */
 class FilterTrackConsumer extends OauthPhirehose {
-
     /**
      * Enqueue each status
      * Function implemented from OauthPhirehose
      */  
-    public function enqueueStatus($status) {
-        
+    public function enqueueStatus($status) {       
         $tweet = json_decode($status);//convert each tweet to json
-        
         storeTweetsInDatabase($tweet);//Store tweet in DyanamoDb
     }
 }//end of class
@@ -35,9 +32,9 @@ $sc->setLang('en');//Set tweet text language to English
 $sc->consume();
 
 
-//Delete tweets from MSrawTweets table
+//Delete tweets from Tweets table
 //from the past hour
-//$cmd = "php AWSdeleteRawTweets.php";
+//$cmd = "php AWSdeleteTweets.php";
 //$pid = exec("nohup $cmd > /dev/null 2>&1 & echo $!");
 
 ?>

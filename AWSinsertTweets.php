@@ -31,7 +31,7 @@ function storeTweetsInDatabase($tweet) {
     $profile_image_url = addslashes($tweet->{'user'}->{'profile_image_url'});
     $followers_count = addslashes($tweet->{'user'}->{'followers_count'});
 
-    //idexId and the created_at time
+    //indexId and the created_at time
     $indexId = 'tweets';
     $rangeId = time();
     $created_at = date("D M j G:i:s" ,time());
@@ -40,10 +40,9 @@ function storeTweetsInDatabase($tweet) {
 
     //get the sentiment 
     //$TwitterSentimentAnalysis = new TwitterSentimentAnalysis(DATUMBOX_API_KEY);
-    $sentiment = 'positive';//addslashes($TwitterSentimentAnalysis->sentimentAnalysis($text));
+    $sentiment = $TwitterSentimentAnalysis->sentimentAnalysis($text);
 
-    //We store the new post in the database, to be able to read it later
-    //insert into AWS dynamoDb
+    //We store the new post in the database, to be able to poll it
     $result = $client->putItem(array(
         'TableName' => $tableName,
         'Item' => array(
