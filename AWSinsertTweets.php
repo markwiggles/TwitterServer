@@ -36,11 +36,15 @@ function storeTweetsInDatabase($tweet) {
     $rangeId = time();
     $created_at = date("D M j G:i:s", time());
 
-    $tableName = 'tweets';
+    $tableName = 'MStweets';
 
     //get the sentiment 
-    //$TwitterSentimentAnalysis = new TwitterSentimentAnalysis(DATUMBOX_API_KEY);
-    $sentiment = 'positive';//$TwitterSentimentAnalysis->sentimentAnalysis($text);
+    $TwitterSentimentAnalysis = new TwitterSentimentAnalysis(DATUMBOX_API_KEY);
+    $sentiment = $TwitterSentimentAnalysis->sentimentAnalysis(str_replace("'", "\'", $text));
+    
+    if(($sentiment == null) || ($sentiment == "")) {
+        $sentiment = "neutral";
+    }
 
     //We store the new post in the database, to be able to poll it
     $result = $client->putItem(array(
