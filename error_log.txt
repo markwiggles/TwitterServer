@@ -1860,3 +1860,90 @@ Stack trace:
 [03-Nov-2013 10:59:40 UTC] Phirehose: Consume rate: 1 status/sec (41 total), avg enqueueStatus(): 1451.01ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 8 seconds.
 [03-Nov-2013 11:00:40 UTC] Phirehose: Consume rate: 1 status/sec (43 total), avg enqueueStatus(): 1414.26ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 6 seconds.
 [03-Nov-2013 11:01:40 UTC] Phirehose: Consume rate: 1 status/sec (47 total), avg enqueueStatus(): 1271.14ms, avg checkFilterPredicates(): 0ms (0 total) over 60 seconds, max stream idle period: 2 seconds.
+[08-Nov-2013 07:17:02 UTC] PHP Warning:  require_once(lib/TwitterSentimentAnalysis.php): failed to open stream: No such file or directory in /home/mark/TwitterServer/AWSinsertTweets.php on line 11
+[08-Nov-2013 07:17:02 UTC] PHP Fatal error:  require_once(): Failed opening required 'lib/TwitterSentimentAnalysis.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/mark/TwitterServer/AWSinsertTweets.php on line 11
+[08-Nov-2013 07:19:58 UTC] PHP Warning:  require_once(DatumboxAPI.php): failed to open stream: No such file or directory in /home/mark/TwitterServer/lib/TwitterSentimentAnalysis.php on line 2
+[08-Nov-2013 07:19:58 UTC] PHP Fatal error:  require_once(): Failed opening required 'DatumboxAPI.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/mark/TwitterServer/lib/TwitterSentimentAnalysis.php on line 2
+[08-Nov-2013 07:20:48 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/sample.json with params: array (  'delimited' => 'length',  'language' => 'en',)
+[08-Nov-2013 07:20:48 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.229, 199.59.148.138
+[08-Nov-2013 07:20:48 UTC] Phirehose: Connecting to ssl://199.59.148.138, port=443, connectTimeout=5
+[08-Nov-2013 07:20:49 UTC] Phirehose: Connection established to 199.59.148.138
+[08-Nov-2013 07:20:49 UTC] Phirehose: POST /1.1/statuses/sample.json HTTP/1.0
+
+[08-Nov-2013 07:20:49 UTC] Phirehose: Host: stream.twitter.com:443
+
+[08-Nov-2013 07:20:49 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[08-Nov-2013 07:20:49 UTC] Phirehose: Content-length: 28
+
+[08-Nov-2013 07:20:49 UTC] Phirehose: Accept: */*
+
+[08-Nov-2013 07:20:49 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="166ac69a6bc22e0652b7eff7a123d16f",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1383895249",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="EixwhcT9LhQQuSy4Q05BKPOmI8g%3D"
+
+[08-Nov-2013 07:20:49 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[08-Nov-2013 07:20:49 UTC] Phirehose: 
+
+[08-Nov-2013 07:20:49 UTC] Phirehose: delimited=length&language=en
+
+[08-Nov-2013 07:20:49 UTC] Phirehose: 
+
+[08-Nov-2013 07:20:50 UTC] PHP Notice:  Undefined variable: TwitterSentimentAnalysis in /home/mark/TwitterServer/AWSinsertTweets.php on line 43
+[08-Nov-2013 07:20:50 UTC] PHP Fatal error:  Call to a member function sentimentAnalysis() on a non-object in /home/mark/TwitterServer/AWSinsertTweets.php on line 43
+[08-Nov-2013 07:21:42 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/sample.json with params: array (  'delimited' => 'length',  'language' => 'en',)
+[08-Nov-2013 07:21:42 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[08-Nov-2013 07:21:42 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[08-Nov-2013 07:21:43 UTC] Phirehose: Connection established to 199.59.148.229
+[08-Nov-2013 07:21:43 UTC] Phirehose: POST /1.1/statuses/sample.json HTTP/1.0
+
+[08-Nov-2013 07:21:43 UTC] Phirehose: Host: stream.twitter.com:443
+
+[08-Nov-2013 07:21:43 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[08-Nov-2013 07:21:43 UTC] Phirehose: Content-length: 28
+
+[08-Nov-2013 07:21:43 UTC] Phirehose: Accept: */*
+
+[08-Nov-2013 07:21:43 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="98919e51765633343dcf86afe44cc1b3",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1383895303",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="YEM7CLNY6ktwX0XNg2gY3B2fn7s%3D"
+
+[08-Nov-2013 07:21:43 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[08-Nov-2013 07:21:43 UTC] Phirehose: 
+
+[08-Nov-2013 07:21:43 UTC] Phirehose: delimited=length&language=en
+
+[08-Nov-2013 07:21:43 UTC] Phirehose: 
+
+[08-Nov-2013 07:21:55 UTC] PHP Fatal error:  Uncaught exception 'Guzzle\Service\Exception\ValidationException' with message 'Validation errors: [Item][sentiment][S] must be of type string' in phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Command/AbstractCommand.php:358
+Stack trace:
+#0 phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Command/AbstractCommand.php(237): Guzzle\Service\Command\AbstractCommand->validate()
+#1 phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Client.php(201): Guzzle\Service\Command\AbstractCommand->prepare()
+#2 phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Client.php(136): Guzzle\Service\Client->prepareCommand(Object(Aws\Common\Command\JsonCommand))
+#3 phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Command/AbstractCommand.php(154): Guzzle\Service\Client->execute(Object(Aws\Common\Command\JsonCommand))
+#4 phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Command/AbstractCommand.php(190): Guzzle\Service\Command\AbstractCommand->execute()
+#5 phar:///usr/share/php/AW in phar:///usr/share/php/AWSSDKforPHP/aws.phar/Guzzle/Service/Command/AbstractCommand.php on line 358
+[08-Nov-2013 07:22:27 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/sample.json with params: array (  'delimited' => 'length',  'language' => 'en',)
+[08-Nov-2013 07:22:28 UTC] Phirehose: Resolved host stream.twitter.com to 199.59.148.138, 199.59.148.229
+[08-Nov-2013 07:22:28 UTC] Phirehose: Connecting to ssl://199.59.148.229, port=443, connectTimeout=5
+[08-Nov-2013 07:22:28 UTC] Phirehose: Connection established to 199.59.148.229
+[08-Nov-2013 07:22:28 UTC] Phirehose: POST /1.1/statuses/sample.json HTTP/1.0
+
+[08-Nov-2013 07:22:28 UTC] Phirehose: Host: stream.twitter.com:443
+
+[08-Nov-2013 07:22:28 UTC] Phirehose: Content-type: application/x-www-form-urlencoded
+
+[08-Nov-2013 07:22:28 UTC] Phirehose: Content-length: 28
+
+[08-Nov-2013 07:22:28 UTC] Phirehose: Accept: */*
+
+[08-Nov-2013 07:22:28 UTC] Phirehose: Authorization: OAuth realm="",oauth_consumer_key="svZXJI1VwflpveNZcLKgw",oauth_nonce="fc5e556e25a68c09d760a61e506982d6",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1383895348",oauth_version="1.0",oauth_token="543781426-Q2Y6IugeGaoA9tGh5PrpkPH00MFtQ2PbqsiVHRN6",oauth_signature="zQoCbMo4AUUf6%2Bw9be%2Bc07tPNJU%3D"
+
+[08-Nov-2013 07:22:28 UTC] Phirehose: User-Agent: Phirehose/0.2.gitmaster +https://github.com/fennb/phirehose
+
+[08-Nov-2013 07:22:28 UTC] Phirehose: 
+
+[08-Nov-2013 07:22:28 UTC] Phirehose: delimited=length&language=en
+
+[08-Nov-2013 07:22:28 UTC] Phirehose: 
+
+[08-Nov-2013 07:23:30 UTC] Phirehose: Consume rate: 1 status/sec (52 total), avg enqueueStatus(): 1157.98ms, avg checkFilterPredicates(): 0ms (0 total) over 61 seconds, max stream idle period: 6 seconds.

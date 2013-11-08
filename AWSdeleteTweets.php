@@ -23,15 +23,18 @@ $client = DynamoDbClient::factory(array(
         ));
 
 //Function call to delete tweets
-while (true) {
-    deleteOldTweets($client);
-    sleep(60);
-}
+//while (true) {
+//    deleteOldTweets($client);
+//    sleep(60);
+//}
 
 /*
  * Function to get older raw tweets from MSrawTweets table
  * in the past hour and delete them
  */
+
+deleteOldTweets($client);
+
 function deleteOldTweets($client) {
     
     //Name of the DynamoDB table which stores
@@ -39,7 +42,7 @@ function deleteOldTweets($client) {
     $tableName = 'MSrawTweets';
     
     //Specify the time limit
-    $rangeId = strtotime("-1 minutes");
+    $rangeId = strtotime("-30 minutes");
 
     //We get the posts in the last hour from the database
     $result = $client->query(array(

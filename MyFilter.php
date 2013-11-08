@@ -16,6 +16,7 @@ class FilterTrackConsumer extends OauthPhirehose {
     public function enqueueStatus($status) {       
         $tweet = json_decode($status);//convert each tweet to json
         storeTweetsInDatabase($tweet);//Store tweet in DyanamoDb
+        
     }
 }//end of class
 

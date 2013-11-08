@@ -34,13 +34,13 @@ function storeTweetsInDatabase($tweet) {
     //indexId and the created_at time
     $indexId = 'tweets';
     $rangeId = time();
-    $created_at = date("D M j G:i:s" ,time());
-    
+    $created_at = date("D M j G:i:s", time());
+
     $tableName = 'tweets';
 
     //get the sentiment 
     //$TwitterSentimentAnalysis = new TwitterSentimentAnalysis(DATUMBOX_API_KEY);
-    $sentiment = $TwitterSentimentAnalysis->sentimentAnalysis($text);
+    $sentiment = 'positive';//$TwitterSentimentAnalysis->sentimentAnalysis($text);
 
     //We store the new post in the database, to be able to poll it
     $result = $client->putItem(array(
@@ -49,17 +49,16 @@ function storeTweetsInDatabase($tweet) {
             'indexId' => array('S' => $indexId),
             'rangeId' => array('N' => $rangeId),
             'twitter_id' => array('N' => $twitterId),
-            'created_at' => array('S' => $created_at ),
+            'created_at' => array('S' => $created_at),
             'text' => array('S' => $text),
             'screen_name' => array('S' => $screen_name),
             'profile_image_url' => array('S' => $profile_image_url),
             'followers_count' => array('N' => $followers_count),
             'sentiment' => array('S' => $sentiment)
-            ),
+        ),
     ));
 
     flush();
 }
-
 
 ?>
