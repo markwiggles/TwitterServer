@@ -2,11 +2,10 @@
 
 require_once('lib/Phirehose.php');
 require_once('lib/OauthPhirehose.php');
-require_once ('AWSinsertRawTweets.php');
-
+require_once ('AWSinsertTweets.php');
 
 /**
- * Class using Phirehose to display a live stream 
+ * Class using Phirehose to get a live stream 
  * of tweets from twitter 
  */
 class FilterTrackConsumer extends OauthPhirehose {
@@ -15,12 +14,11 @@ class FilterTrackConsumer extends OauthPhirehose {
      * Enqueue each status
      * Function implemented from OauthPhirehose
      */  
-    
-    public function enqueueStatus($status) {     
+    public function enqueueStatus($status) {
         
-        //Store tweets from the stream into 
-        //MSrawTweets of DynamoDB
-        storeRawTweetsInDatabase($status);
+        $tweet = json_decode($status);//convert each tweet to json
+        
+        storeTweetsInDatabase($tweet);//Store tweet in DyanamoDb
     }
 }//end of class
 
@@ -33,14 +31,13 @@ define("OAUTH_SECRET", "hVNkoq7IbpzmD3wi57gF2tUU8bbgZ3Kv9wKJ2JPk2o");
 
 // Create the stream object from above class and start streaming
 $sc = new FilterTrackConsumer(OAUTH_TOKEN, OAUTH_SECRET, Phirehose::METHOD_SAMPLE);
-//Set tweet text language to English
-$sc->setLang('en');
+$sc->setLang('en');//Set tweet text language to English
+$sc->consume();
+
 
 //Delete tweets from MSrawTweets table
 //from the past hour
-$cmd = "php AWSdeleteRawTweets.php";
-$pid = exec("nohup $cmd > /dev/null 2>&1 & echo $!");
+//$cmd = "php AWSdeleteRawTweets.php";
+//$pid = exec("nohup $cmd > /dev/null 2>&1 & echo $!");
 
-//Begin receiving tweets from the twitter stream
-$sc->consume();
 ?>
